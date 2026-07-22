@@ -1,0 +1,4233 @@
+[
+ {
+  "id": "ac6fdb1",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-nav",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "06db41a",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-nav-inner",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "393f3fa",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Rokibul Islam",
+       "header_size": "div",
+       "_css_classes": "rk-logo"
+      },
+      "elements": []
+     },
+     {
+      "id": "b3c188a",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-nav-links\"><a href=\"#about\">About</a><a href=\"#steps\">How it works</a><a href=\"#services\">Services</a><a href=\"#industries\">Industries</a><a href=\"#compare\">Why me</a><a href=\"#faq\">FAQ</a><a class=\"rk-nav-cta\" href=\"#contact\">Book Strategy Call</a><button class=\"rk-nav-burger\" aria-label=\"Menu\" onclick=\"document.querySelector(&quot;.rk-nav-links&quot;).classList.toggle(&quot;open&quot;)\">&#9776;</button></div>"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "5d4a919",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-hero",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "c17ec18",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-hero-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "0b4925c",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-hero-left",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "4a711b8",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-badge\"><span class=\"rk-dot\"></span><span>SEO &middot; AEO &middot; GEO &middot; AI SEARCH</span></div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "e26b555",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Get Found Across Google, ChatGPT &amp; AI Search",
+         "header_size": "h1",
+         "_css_classes": "rk-h1"
+        },
+        "elements": []
+       },
+       {
+        "id": "ecac5b3",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>I'm <strong>Rokibul Islam</strong>, an SEO consultant with 6+ years helping 235+ brands grow across Google and AI-powered search. I specialize in Semantic SEO, Technical SEO, AEO, GEO, WordPress &amp; Shopify development, AI automation and digital marketing.</p>",
+         "_css_classes": "rk-lead"
+        },
+        "elements": []
+       },
+       {
+        "id": "b0560b7",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-cta-row",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "154c9a6",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+           "text": "Book Strategy Call",
+           "link": {
+            "url": "#contact"
+           },
+           "_css_classes": "rk-btn rk-btn-dark"
+          },
+          "elements": []
+         },
+         {
+          "id": "f4ec8c4",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+           "text": "Get Free SEO Audit",
+           "link": {
+            "url": "#contact"
+           },
+           "_css_classes": "rk-btn rk-btn-light"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "2eb46c3",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-hero-right",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a0a2978",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-hero-photo"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "cb73f2e",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-gallery",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "774d235",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-slider-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "50363e0",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-slider-head-left",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "c5f26bf",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-eyebrow\">What I Do</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "5c8c039",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Visibility Everywhere People Search",
+         "header_size": "h2",
+         "_css_classes": "rk-h2"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "36c1275",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-arrows\"><button class=\"rk-arrow rk-arrow-light\" data-rk-slide=\"prev\" data-rk-target=\"rk-gallery-track\" aria-label=\"Previous\">&#8592;</button><button class=\"rk-arrow rk-arrow-dark\" data-rk-slide=\"next\" data-rk-target=\"rk-gallery-track\" aria-label=\"Next\">&#8594;</button></div>"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "4b9b273",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-track rk-gallery-track",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "208d090",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-gcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "3e229d1",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-gcard-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "fcddcd6",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-gcard-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "692b6d3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "AI Search Visibility",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "e994c82",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Get cited inside ChatGPT, Perplexity and Google AI Overviews.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "246eda9",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-gcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "50a1826",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-gcard-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "72c7b7f",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-gcard-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "44ad60f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Technical SEO",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "4440ac3",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Fast, crawlable, structured foundations for sustainable growth.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "0eb8734",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-gcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "b741a64",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-gcard-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "a00b7db",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-gcard-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "7e9068e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Local SEO",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "94a9dc8",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Own the map pack and win nearby, ready-to-buy customers.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "66293e4",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-gcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "f7912a7",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-gcard-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "03dc9a5",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-gcard-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "f81a5f1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Semantic SEO",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "f025b8f",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Topical authority and content ecosystems that compound.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "4932e7b",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-gcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "2eff8ce",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-gcard-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "43d9030",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-gcard-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "0a98947",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "E-commerce Growth",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "595bb4d",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>More organic product visibility and revenue at scale.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "2604076",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-gcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "52c4193",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-gcard-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "e0840f9",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-gcard-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "18ba78a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Digital PR",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "263595a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Authority built through trusted mentions and coverage.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "c292d77",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-stats",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "acc8463",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-stats-band",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "e4c5906",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-stat",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "b9dce4c",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stat-value\">235+</div><div class=\"rk-stat-label\">Projects Completed</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "ab4111e",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-stat",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "94c292d",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stat-value\">6+</div><div class=\"rk-stat-label\">Years Experience</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "b44a8fd",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-stat",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ff1cb05",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stat-value\">70+</div><div class=\"rk-stat-label\">Industries</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "d82c06f",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-stat",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "895cbef",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stat-value\">300M+</div><div class=\"rk-stat-label\">Impressions</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "18ef544",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-stat",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "70f77a8",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stat-value\">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class=\"rk-stat-label\">Client Rating</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "df6af9a",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-about",
+   "content_width": "full",
+   "_element_id": "about"
+  },
+  "elements": [
+   {
+    "id": "4a6bc32",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-about-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "fa7a204",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-about-photo-wrap",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "6956517",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-about-photo"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "69c90b3",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-about-content",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "cf4f0b4",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-eyebrow\">About Me</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "bb74619",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Hi, I'm Rokibul Islam",
+         "header_size": "h2",
+         "_css_classes": "rk-h2"
+        },
+        "elements": []
+       },
+       {
+        "id": "f0e8e9d",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>An SEO consultant focused on search visibility, not just rankings. My approach centers on how search engines and AI systems interpret businesses, content, products and expertise.</p><p>Over the last six years I've helped local businesses, SaaS companies, e-commerce stores, healthcare brands and professional service providers grow sustainable organic visibility across Google and AI-powered search.</p>",
+         "_css_classes": "rk-body"
+        },
+        "elements": []
+       },
+       {
+        "id": "1c05f6a",
+        "elType": "widget",
+        "widgetType": "social-icons",
+        "settings": {
+         "social_icon_list": [
+          {
+           "_id": "bf3f4a8",
+           "social_icon": {
+            "value": "fab fa-linkedin-in",
+            "library": "fa-brands"
+           },
+           "link": {
+            "url": "#",
+            "is_external": "true"
+           }
+          },
+          {
+           "_id": "d439353",
+           "social_icon": {
+            "value": "fab fa-facebook-f",
+            "library": "fa-brands"
+           },
+           "link": {
+            "url": "#",
+            "is_external": "true"
+           }
+          },
+          {
+           "_id": "acad1e6",
+           "social_icon": {
+            "value": "fab fa-whatsapp",
+            "library": "fa-brands"
+           },
+           "link": {
+            "url": "#",
+            "is_external": "true"
+           }
+          },
+          {
+           "_id": "7c4232b",
+           "social_icon": {
+            "value": "fas fa-envelope",
+            "library": "fa-solid"
+           },
+           "link": {
+            "url": "#",
+            "is_external": "true"
+           }
+          },
+          {
+           "_id": "29b4cce",
+           "social_icon": {
+            "value": "fab fa-discord",
+            "library": "fa-brands"
+           },
+           "link": {
+            "url": "#",
+            "is_external": "true"
+           }
+          }
+         ],
+         "_css_classes": "rk-socials"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "76265e1",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-exp",
+   "content_width": "full",
+   "_element_id": "experience"
+  },
+  "elements": [
+   {
+    "id": "2743b7e",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "bc34893",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">Experience</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "007fce6",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "My Work Experience",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "553486b",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-exp-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "95ebaa7",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-exp-photo-wrap",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "908da9a",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-exp-photo"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "36da47a",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-exp-list",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "55c8102",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-exp-item",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "f380743",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-exp-top\"><div class=\"rk-exp-role\">Senior SEO &amp; AI Search Consultant</div><div class=\"rk-exp-period\">2022 &mdash; Present</div></div><div class=\"rk-exp-company\">Independent Consulting</div><div class=\"rk-exp-desc\">Leading full-funnel SEO, AEO and GEO programs for SaaS, e-commerce and local brands across 70+ industries.</div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "8992148",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-exp-item",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "b227487",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-exp-top\"><div class=\"rk-exp-role\">SEO Specialist</div><div class=\"rk-exp-period\">2020 &mdash; 2022</div></div><div class=\"rk-exp-company\">Digital Marketing Agency</div><div class=\"rk-exp-desc\">Managed technical and on-page SEO for 100+ client websites, driving consistent organic growth.</div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "37c81ff",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-exp-item",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "ca4de22",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-exp-top\"><div class=\"rk-exp-role\">Web Developer &amp; SEO</div><div class=\"rk-exp-period\">2018 &mdash; 2020</div></div><div class=\"rk-exp-company\">Freelance</div><div class=\"rk-exp-desc\">Built WordPress and Shopify sites with SEO baked in from the ground up.</div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "5d656fe",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-logos",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "dddd530",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "7bdfc24",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">Our Partners</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "a7662b3",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Trusted by Brands &amp; Teams",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "d783649",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-logos-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "59c2418",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a8b822e",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "76d6cab",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "0b8c0a5",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "33158c6",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "4168e05",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "376e067",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a2d2672",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "b071c9f",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "5eb32f4",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "714021d",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a43b050",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "8a0e8aa",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "2623d2d",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "a81f170",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-logo-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "1fa370b",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-logo-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "6083d11",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-steps",
+   "content_width": "full",
+   "_element_id": "steps"
+  },
+  "elements": [
+   {
+    "id": "11def2d",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "2bc6d8d",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">How It Works</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "cea7533",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Grow Your Search Visibility in 3 Steps",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "65cfe3b",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-steps-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "487143c",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-step-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "d79e10b",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-step-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "0f3de22",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-step-n\">STEP 01</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "f29c50c",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Free SEO Audit",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "bb92efb",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>I analyze your site, competitors and AI-search visibility to uncover the biggest opportunities.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "836307d",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-step-arrow\">&#8594;</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "9dfe67d",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-step-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "8a1554a",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-step-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "f280b92",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-step-n\">STEP 02</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "9973761",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Custom Strategy",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "77f2121",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>A prioritized roadmap across technical, semantic, local and AI-search optimization.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "5cb6ece",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-step-arrow\">&#8594;</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "bfa9274",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-step-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "5c417d5",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-step-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "07ac221",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-step-n\">STEP 03</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "3057217",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Ongoing Growth",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "c36cb19",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Implementation, monitoring and transparent reporting tied to traffic, leads and revenue.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "5cc10e0",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-services rk-band",
+   "content_width": "full",
+   "_element_id": "services"
+  },
+  "elements": [
+   {
+    "id": "fc169d8",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "c28e95e",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">Services</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "f63f64d",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "One Consultant. Every Search Discipline.",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "58400ec",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-svc-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "a6b99f8",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "030629d",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "74836dd",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Technical SEO",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "0cd70f6",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Crawlability, indexation, Core Web Vitals and structured data foundations.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "023eea1",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "50a4deb",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "86b61e6",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "3c6f99f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Semantic SEO",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "5cad02e",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Topic maps and content ecosystems search engines truly understand.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "17a98ce",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "00962aa",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "0451ef3",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "d7f30d5",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "AEO &amp; GEO",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "c1c2137",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Earn featured snippets and citations inside AI-generated answers.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "bad8bfe",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "05115a5",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "dc6fd14",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "fc2c6bd",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Local SEO",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "61552f0",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Map-pack rankings, citations and Google Business Profile optimization.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "35cdf74",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "1c49f96",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "d7fb166",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "25e1a39",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "WordPress &amp; Shopify Dev",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "208405f",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Fast, SEO-ready builds and custom plugin development.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "25944c4",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "0bcf18c",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a844311",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "ade4502",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "AI Automation",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "a5c5b84",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>AI workflows and agents that scale content and reporting.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "2a5df82",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "5c781f0",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "de98fee",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "b76661a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Entity SEO",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "08df8f2",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Make your brand a recognized entity in the Knowledge Graph.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "fc53cb0",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "00bc316",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "d15496a",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "4ce4822",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Digital PR",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "b4cbd1b",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Trusted mentions and link signals that compound authority.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "c272179",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "61c830c",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-svc-card rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "b5fc14e",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-svc-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "e583f97",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Digital Marketing",
+         "header_size": "h3",
+         "_css_classes": "rk-card-title"
+        },
+        "elements": []
+       },
+       {
+        "id": "d98d757",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Google Ads, Meta Ads and analytics that support organic growth.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       },
+       {
+        "id": "7cd5ca3",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<a class=\"rk-textlink\" href=\"#contact\">View Details <span>&#8594;</span></a>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "f51ab89",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-center",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "d49f137",
+      "elType": "widget",
+      "widgetType": "button",
+      "settings": {
+       "text": "View All Services",
+       "link": {
+        "url": "#services"
+       },
+       "_css_classes": "rk-btn rk-btn-dark"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "34f6b84",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-industries",
+   "content_width": "full",
+   "_element_id": "industries"
+  },
+  "elements": [
+   {
+    "id": "0c8ab47",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "7c41e27",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">Industries</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "57f33da",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Tailored Strategies for Every Industry",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "09c4dba",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-ind-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "530714f",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-ind-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ff85d93",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-img-wrap",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "491508d",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-ind-img"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "1fa4f08",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "9411681",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Restaurants &amp; Hospitality",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "718da77",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>More reservations, local visibility and online orders.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         },
+         {
+          "id": "155fcb9",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<a class=\"rk-textlink\" href=\"#contact\">View Case Study <span>&#8594;</span></a>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "1a8e33e",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-ind-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "9d6c36b",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-img-wrap",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "03845a9",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-ind-img"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "0aaa8b0",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "d643de7",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "SaaS &amp; Technology",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "f7f6195",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Scalable organic acquisition through content and product-led SEO.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         },
+         {
+          "id": "0e60412",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<a class=\"rk-textlink\" href=\"#contact\">View Case Study <span>&#8594;</span></a>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "65446c0",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-ind-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "5b8236e",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-img-wrap",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "9297331",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-ind-img"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "750ad97",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "575c580",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "E-commerce &amp; Retail",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "2cf2e9e",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Product visibility and organic revenue growth at scale.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         },
+         {
+          "id": "cff4adb",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<a class=\"rk-textlink\" href=\"#contact\">View Case Study <span>&#8594;</span></a>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "0f8ac37",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-ind-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "021fd7e",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-img-wrap",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "d630676",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-ind-img"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "827a07d",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-ind-body",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "2925868",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Healthcare &amp; Clinics",
+           "header_size": "h3",
+           "_css_classes": "rk-card-title"
+          },
+          "elements": []
+         },
+         {
+          "id": "80eead1",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Trust signals and local visibility across multiple locations.</p>",
+           "_css_classes": "rk-card-text"
+          },
+          "elements": []
+         },
+         {
+          "id": "3484e03",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<a class=\"rk-textlink\" href=\"#contact\">View Case Study <span>&#8594;</span></a>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "ffd38c5",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-center",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "3a5193c",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<a class=\"rk-textlink rk-textlink-lg\" href=\"#contact\">View all 70+ industries <span>&#8594;</span></a>"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "84bf9b2",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-why rk-band",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "bd9dab2",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "7cb157b",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">Why Choose Me</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "5834519",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "A Consultant Built for the AI Search Era",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "5c7d724",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-why-rows",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "629b46c",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-why-row",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "71fd8c5",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-why-text",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "beac037",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Built for the AI search era",
+           "header_size": "h3",
+           "_css_classes": "rk-h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "edded0d",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Most consultants still chase blue links. I optimize for where discovery actually happens now.</p>",
+           "_css_classes": "rk-body"
+          },
+          "elements": []
+         },
+         {
+          "id": "9e806f8",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-bullets\"><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Visibility in Google AI Overviews</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Citations inside ChatGPT &amp; Perplexity</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Entity-led optimization for the Knowledge Graph</span></div></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "f1d48be",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-why-img-wrap",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "b3e9f52",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-why-img"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "358938f",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-why-row rk-why-rev",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "dfc92b1",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-why-text",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "5536b77",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Full-stack, no hand-offs",
+           "header_size": "h3",
+           "_css_classes": "rk-h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "ce6f764",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>SEO, development, automation and ads under one roof &mdash; nothing gets lost between vendors.</p>",
+           "_css_classes": "rk-body"
+          },
+          "elements": []
+         },
+         {
+          "id": "0f9d66b",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-bullets\"><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>SEO + WordPress/Shopify development</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>AI automation &amp; custom workflows</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Paid media that supports organic growth</span></div></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "95e0093",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-why-img-wrap",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "93b83de",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-why-img"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "8dee71c",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-why-row",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "44d96b4",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-why-text",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "8c0aa32",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+           "title": "Transparent reporting",
+           "header_size": "h3",
+           "_css_classes": "rk-h3"
+          },
+          "elements": []
+         },
+         {
+          "id": "7cf7018",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+           "editor": "<p>Clear monthly reports tied to outcomes that matter &mdash; not vanity metrics.</p>",
+           "_css_classes": "rk-body"
+          },
+          "elements": []
+         },
+         {
+          "id": "5fa0c12",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-bullets\"><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Traffic, leads and revenue tracking</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Plain-English monthly reviews</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Prioritized, always-on roadmap</span></div></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "832a9ab",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-why-img-wrap",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "c9375a7",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-why-img"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "19c6414",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-collage",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "17f7e18",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-collage-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "2c2dd2b",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "5518233",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "017ae8d",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "cd4d0b0",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "8829b50",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "5d046cb",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "fa33645",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "e819a8d",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "3fa5c8e",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "0dcf0c4",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "2697c97",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "499726c",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "305a0d3",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "2184bef",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "4094874",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-collage-item",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "0438194",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-collage-img"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "8aab7b6",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-ba",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "856279f",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "0769086",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">The Transformation</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "a0d1bcf",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "From Invisible to Everywhere in Search",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "c6fe071",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-ba-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "51ff73f",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-ba-card rk-ba-before",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "746c702",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pill rk-pill-red\">BEFORE</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "f81f276",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-ba-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "0979bd0",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Buried below the fold, no local presence, invisible to AI Overviews and ChatGPT.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "af5418a",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-ba-arrow\">&#8594;</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "18deb94",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-ba-card rk-ba-after",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "c200c2d",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pill rk-pill-green\">AFTER</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "fe23a07",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-ba-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "3d29ea2",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Top-3 rankings, map-pack visibility, and cited directly inside AI-generated answers.</p>",
+         "_css_classes": "rk-card-text"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "163b749",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-compare rk-band",
+   "content_width": "full",
+   "_element_id": "compare"
+  },
+  "elements": [
+   {
+    "id": "388197a",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "608f254",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">The Difference</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "bed9a0b",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Traditional SEO vs My AI-First Approach",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "cc8a27b",
+    "elType": "widget",
+    "widgetType": "html",
+    "settings": {
+     "html": "<div class=\"rk-cmp-table\"><div class=\"rk-cmp-row rk-cmp-head\"><div></div><div class=\"rk-cmp-col-old\">Traditional SEO</div><div class=\"rk-cmp-col-mine\">My Approach</div></div><div class=\"rk-cmp-row\"><div class=\"rk-cmp-label\">Primary focus</div><div class=\"rk-cmp-old\">Keyword rankings</div><div class=\"rk-cmp-mine\">Total search visibility</div></div><div class=\"rk-cmp-row\"><div class=\"rk-cmp-label\">AI search (ChatGPT, Perplexity)</div><div class=\"rk-cmp-old\">Ignored</div><div class=\"rk-cmp-mine\">Core priority</div></div><div class=\"rk-cmp-row\"><div class=\"rk-cmp-label\">Approach</div><div class=\"rk-cmp-old\">Keywords &amp; backlinks</div><div class=\"rk-cmp-mine\">Entities &amp; topical authority</div></div><div class=\"rk-cmp-row\"><div class=\"rk-cmp-label\">Skill set</div><div class=\"rk-cmp-old\">SEO only</div><div class=\"rk-cmp-mine\">SEO + Dev + AI + Ads</div></div><div class=\"rk-cmp-row\"><div class=\"rk-cmp-label\">Reporting</div><div class=\"rk-cmp-old\">Vanity metrics</div><div class=\"rk-cmp-mine\">Revenue &amp; leads</div></div><div class=\"rk-cmp-row\"><div class=\"rk-cmp-label\">Timeline</div><div class=\"rk-cmp-old\">Vague promises</div><div class=\"rk-cmp-mine\">Clear, measurable milestones</div></div></div>"
+    },
+    "elements": []
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "38e1157",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-testimonials",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "9d4d682",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-slider-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "9fd7d4d",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-slider-head-left",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "e8d9dad",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-eyebrow\">Testimonials</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "5f66c27",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Don't Take My Word For It",
+         "header_size": "h2",
+         "_css_classes": "rk-h2"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "55bff9c",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-arrows\"><button class=\"rk-arrow rk-arrow-light\" data-rk-slide=\"prev\" data-rk-target=\"rk-testi-track\" aria-label=\"Previous\">&#8592;</button><button class=\"rk-arrow rk-arrow-dark\" data-rk-slide=\"next\" data-rk-target=\"rk-testi-track\" aria-label=\"Next\">&#8594;</button></div>"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "4655b89",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-track rk-testi-track",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "fb93352",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-tcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "21c170d",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "e41f429",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>&ldquo;Our organic traffic increased by over 300% within months. The AI-first strategy put us in front of customers on Google and ChatGPT.&rdquo;</p>",
+         "_css_classes": "rk-quote"
+        },
+        "elements": []
+       },
+       {
+        "id": "86f078d",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-tmeta",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "102227a",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-tavatar"
+          },
+          "elements": []
+         },
+         {
+          "id": "d144f61",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div><div class=\"rk-tname\">James Wilson</div><div class=\"rk-trole\">Restaurant Owner</div></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "97c7c4d",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-tcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "08f733c",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "58176fc",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>&ldquo;The depth of the SEO audit and the clarity of the roadmap were unmatched. Rankings improved, but more importantly, leads increased.&rdquo;</p>",
+         "_css_classes": "rk-quote"
+        },
+        "elements": []
+       },
+       {
+        "id": "adfb4fb",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-tmeta",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "04fffff",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-tavatar"
+          },
+          "elements": []
+         },
+         {
+          "id": "2ae7427",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div><div class=\"rk-tname\">Sarah Thompson</div><div class=\"rk-trole\">SaaS Founder</div></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "2b5a928",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-tcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "f3c771e",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "67243cc",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>&ldquo;One of the few consultants who truly understands how AI search is changing SEO &mdash; and how to win in it.&rdquo;</p>",
+         "_css_classes": "rk-quote"
+        },
+        "elements": []
+       },
+       {
+        "id": "7d72e27",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-tmeta",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "7387663",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-tavatar"
+          },
+          "elements": []
+         },
+         {
+          "id": "d9bcb4f",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div><div class=\"rk-tname\">Michael Roberts</div><div class=\"rk-trole\">Marketing Director</div></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "428c354",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-tcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a22ea98",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>"
+        },
+        "elements": []
+       },
+       {
+        "id": "b2e05a4",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>&ldquo;Organic revenue is up 180% year over year. Every report ties back to the numbers that matter to our business.&rdquo;</p>",
+         "_css_classes": "rk-quote"
+        },
+        "elements": []
+       },
+       {
+        "id": "e74c104",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-tmeta",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "3ce889c",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-tavatar"
+          },
+          "elements": []
+         },
+         {
+          "id": "dd1b867",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div><div class=\"rk-tname\">Emma Clarke</div><div class=\"rk-trole\">E-commerce Manager</div></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "65a0380",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-videos",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "50bef7a",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "e1e9c48",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">Video Reviews</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "2c7cdd0",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Hear It From My Clients",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "1d9fb31",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-videos-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "7c1626b",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-vcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "cb9b130",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-vthumb",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "939ff26",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-vimg"
+          },
+          "elements": []
+         },
+         {
+          "id": "39ac0c6",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-play\"><span>&#9654;</span></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "aded46d",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-vbody\"><div class=\"rk-tname\">David Martinez</div><div class=\"rk-trole\">E-commerce Manager</div></div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "f49821c",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-vcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "3454448",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-vthumb",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "6fc640b",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-vimg"
+          },
+          "elements": []
+         },
+         {
+          "id": "bc0fa91",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-play\"><span>&#9654;</span></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "9b1cd09",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-vbody\"><div class=\"rk-tname\">Lisa Patel</div><div class=\"rk-trole\">Clinic Director</div></div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "cfa02e6",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-vcard rk-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "461ebce",
+        "elType": "container",
+        "settings": {
+         "css_classes": "rk-vthumb",
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "390337e",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+           "image": {
+            "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+            "id": ""
+           },
+           "_css_classes": "rk-vimg"
+          },
+          "elements": []
+         },
+         {
+          "id": "cb6770c",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+           "html": "<div class=\"rk-play\"><span>&#9654;</span></div>"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "6115f17",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-vbody\"><div class=\"rk-tname\">Tom Bennett</div><div class=\"rk-trole\">SaaS CMO</div></div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "e41dff0",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-platforms rk-band",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "17ddfe2",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "d7bac78",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">Platforms &amp; Tools</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "37aae46",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Works With Your Favorite Platforms",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "091e42c",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-pf-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "d1c8355",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "423f391",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "8ecd53f",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">WordPress</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "7fe0b47",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "574c45d",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "03c800a",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">Shopify</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "14a41d5",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "bfe8ec1",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "ed7c1ee",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">WooCommerce</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "efb90cc",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ae909c4",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "1f7caab",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">Webflow</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "c55c049",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "2574b73",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "1acb96c",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">Wix</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "f74e293",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "88afd49",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "321bec0",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">Squarespace</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "0e72a89",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "cfe27e7",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "0c5c616",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">Google Analytics</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "95c83e0",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-pf-card",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "7b6d83d",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://growwithrokibul.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+          "id": ""
+         },
+         "_css_classes": "rk-pf-img"
+        },
+        "elements": []
+       },
+       {
+        "id": "f453474",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-pf-name\">Search Console</div>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "1851ae9",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-faq",
+   "content_width": "full",
+   "_element_id": "faq"
+  },
+  "elements": [
+   {
+    "id": "5f81b34",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-sec-head",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "ac3f8a8",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-eyebrow\">FAQ</div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "e08c23e",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Frequently Asked Questions",
+       "header_size": "h2",
+       "_css_classes": "rk-h2"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "d48bab2",
+    "elType": "widget",
+    "widgetType": "accordion",
+    "settings": {
+     "tabs": [
+      {
+       "_id": "45f0e52",
+       "tab_title": "What makes you different from a traditional SEO consultant?",
+       "tab_content": "<p>I combine Technical SEO, Semantic SEO, AEO, GEO and Digital PR to improve visibility across both traditional search engines and AI-powered search platforms &mdash; not just keyword rankings.</p>"
+      },
+      {
+       "_id": "5d945d9",
+       "tab_title": "How does SEO differ from AEO and GEO?",
+       "tab_content": "<p>SEO improves rankings within search results. AEO helps content appear in featured snippets and AI summaries. GEO increases visibility and citations inside AI-generated responses from platforms like ChatGPT and Perplexity.</p>"
+      },
+      {
+       "_id": "9b94246",
+       "tab_title": "Can my business appear in Google AI Overviews?",
+       "tab_content": "<p>Yes. Businesses can increase their chances with authoritative content, structured data, entity recognition and demonstrated expertise within their industry.</p>"
+      },
+      {
+       "_id": "638aaea",
+       "tab_title": "What is Entity SEO and why does it matter?",
+       "tab_content": "<p>Entity SEO helps search engines understand real-world entities and their relationships. Modern search and AI systems rely on entities for context, strengthening your presence in the Knowledge Graph.</p>"
+      },
+      {
+       "_id": "2a7e298",
+       "tab_title": "How long does it take to see results?",
+       "tab_content": "<p>SEO is a long-term investment. Most businesses see measurable improvements within three to six months, though competitive industries may need more time.</p>"
+      },
+      {
+       "_id": "705195f",
+       "tab_title": "What industries do you specialize in?",
+       "tab_content": "<p>I&rsquo;ve worked across more than 70 industries &mdash; restaurants, SaaS, e-commerce, healthcare, real estate and professional services &mdash; each with a tailored strategy.</p>"
+      },
+      {
+       "_id": "93ff0be",
+       "tab_title": "Do you handle development too?",
+       "tab_content": "<p>Yes. I build and optimize WordPress and Shopify sites, develop custom plugins, and set up AI automations &mdash; so SEO and implementation stay in sync.</p>"
+      },
+      {
+       "_id": "c3b284d",
+       "tab_title": "How do we get started?",
+       "tab_content": "<p>Book a strategy call or request a free SEO audit. I&rsquo;ll review your site and AI-search visibility and share the biggest opportunities before you commit to anything.</p>"
+      }
+     ],
+     "selected_icon": {
+      "value": "fas fa-plus",
+      "library": "fa-solid"
+     },
+     "selected_active_icon": {
+      "value": "fas fa-minus",
+      "library": "fa-solid"
+     },
+     "_css_classes": "rk-accordion"
+    },
+    "elements": []
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "628adfe",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-cta",
+   "content_width": "full",
+   "_element_id": "contact"
+  },
+  "elements": [
+   {
+    "id": "91d72e1",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-cta-box",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "61000d2",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Ready to Transform Your Search Visibility?",
+       "header_size": "h2",
+       "_css_classes": "rk-cta-title"
+      },
+      "elements": []
+     },
+     {
+      "id": "4fab67c",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "settings": {
+       "editor": "<p>Let's build an SEO strategy that works across Google, AI Overviews, ChatGPT, Perplexity and the next generation of search.</p>",
+       "_css_classes": "rk-cta-sub"
+      },
+      "elements": []
+     },
+     {
+      "id": "b04e209",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-cta-row rk-center-row",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a934d8f",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Book Strategy Call",
+         "link": {
+          "url": "#contact"
+         },
+         "_css_classes": "rk-btn rk-btn-white"
+        },
+        "elements": []
+       },
+       {
+        "id": "022e36e",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Get Free SEO Audit",
+         "link": {
+          "url": "#contact"
+         },
+         "_css_classes": "rk-btn rk-btn-outline"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "858a573",
+  "elType": "container",
+  "settings": {
+   "css_classes": "rk-footer",
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "15a8e28",
+    "elType": "container",
+    "settings": {
+     "css_classes": "rk-footer-grid",
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "4389db5",
+      "elType": "container",
+      "settings": {
+       "css_classes": "rk-footer-brand",
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "516fcfc",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+         "html": "<div class=\"rk-footer-logo\">Rokibul Islam</div><p class=\"rk-footer-desc\">SEO Consultant helping brands stay visible across Google, AI Overviews, ChatGPT, Perplexity and the next generation of search.</p>"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "8d6d801",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-footer-col\"><div class=\"rk-footer-head\">SERVICES</div><a href=\"#services\">SEO &amp; AEO</a><a href=\"#services\">Development</a><a href=\"#services\">AI Automation</a></div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "ba30b6d",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-footer-col\"><div class=\"rk-footer-head\">COMPANY</div><a href=\"#industries\">Industries</a><a href=\"#compare\">Why Me</a><a href=\"#faq\">FAQ</a></div>"
+      },
+      "elements": []
+     },
+     {
+      "id": "d68614a",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+       "html": "<div class=\"rk-footer-col\"><div class=\"rk-footer-head\">SOCIAL</div><a href=\"#\">LinkedIn</a><a href=\"#\">Twitter / X</a><a href=\"#\">Email</a></div>"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "d3c2bd8",
+    "elType": "widget",
+    "widgetType": "html",
+    "settings": {
+     "html": "<div class=\"rk-footer-bottom\">&copy; 2026 Rokibul Islam. All rights reserved.</div>"
+    },
+    "elements": []
+   }
+  ],
+  "isInner": false
+ }
+]
