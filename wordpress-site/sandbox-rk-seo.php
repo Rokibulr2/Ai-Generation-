@@ -36,6 +36,7 @@ function rk_seo_metabox($post) {
     $schema = $g('_rk_seo_schema');
     $noindex  = $g('_rk_seo_noindex');
     $nofollow = $g('_rk_seo_nofollow');
+    $custom_schema = $g('_rk_seo_schema_custom');
     $url = get_permalink($post->ID);
     $host = wp_parse_url(home_url(), PHP_URL_HOST);
     $schema_types = ['' => 'Auto (recommended)', 'WebPage' => 'WebPage', 'AboutPage' => 'AboutPage', 'ContactPage' => 'ContactPage', 'ProfilePage' => 'ProfilePage', 'Article' => 'Article', 'CollectionPage' => 'CollectionPage'];
@@ -84,6 +85,11 @@ function rk_seo_metabox($post) {
                 <label class="rk-seo-chk"><input type="checkbox" name="rk_seo_nofollow" value="1" <?php checked($nofollow, '1'); ?> /> No-follow (don't pass link equity)</label>
             </div>
         </div>
+        <div class="rk-seo-field">
+            <label for="rk_seo_schema_custom">Custom Schema (JSON-LD) <span style="font-weight:400;color:#787c82">(advanced — output in addition to the automatic schema)</span></label>
+            <textarea id="rk_seo_schema_custom" name="rk_seo_schema_custom" rows="6" style="font-family:monospace;font-size:12px" placeholder='{ "@context": "https://schema.org", "@type": "Review", ... }'><?php echo esc_textarea($custom_schema); ?></textarea>
+            <div class="rk-seo-count">Paste valid JSON-LD to add your own structured data for this page. Do not include &lt;script&gt; tags — they are added automatically. Leave blank to use only the automatic schema.</div>
+        </div>
     </div>
     <script>
     (function(){
@@ -107,6 +113,9 @@ add_action('save_post', function ($post_id) {
     update_post_meta($post_id, '_rk_seo_schema', sanitize_text_field($_POST['rk_seo_schema'] ?? ''));
     update_post_meta($post_id, '_rk_seo_noindex', isset($_POST['rk_seo_noindex']) ? '1' : '');
     update_post_meta($post_id, '_rk_seo_nofollow', isset($_POST['rk_seo_nofollow']) ? '1' : '');
+    if (isset($_POST['rk_seo_schema_custom'])) {
+        update_post_meta($post_id, '_rk_seo_schema_custom', trim(wp_unslash($_POST['rk_seo_schema_custom'])));
+    }
 });
 
 /* --------------------------------------------------------- front-end output */
@@ -164,16 +173,107 @@ add_action('wp_head', function () {
     if ($desc) { $out[] = '<meta name="twitter:description" content="' . esc_attr($desc) . '" />'; }
     if ($og_img) { $out[] = '<meta name="twitter:image" content="' . esc_url($og_img) . '" />'; }
 
-    // optional per-page schema type
-    if ($id && ($stype = get_post_meta($id, '_rk_seo_schema', true))) {
-        $schema = [
-            '@context' => 'https://schema.org',
-            '@type'    => $stype,
-            'name'     => $og_title,
-            'url'      => $og_url,
+    // ---- Dynamic JSON-LD @graph (all pages) ----
+    $site   = home_url('/');
+    $person = [
+        '@type'    => 'Person',
+        '@id'      => $site . '#person',
+        'name'     => 'Rokibul Islam Shuvo',
+        'url'      => $site,
+        'jobTitle' => 'SEO Consultant',
+    ];
+    $website = [
+        '@type'       => 'WebSite',
+        '@id'         => $site . '#website',
+        'url'         => $site,
+        'name'        => get_bloginfo('name'),
+        'description' => get_bloginfo('description'),
+        'publisher'   => ['@id' => $site . '#person'],
+        'inLanguage'  => 'en-US',
+    ];
+    $graph = [$website, $person];
+
+    if ($id) {
+        $svc_map    = get_option('rk_svc_data', []);
+        $is_service = isset($svc_map[$id]);
+
+        // breadcrumb
+        $items = [['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $site]];
+        $pos = 2;
+        if ($is_service) { $items[] = ['@type' => 'ListItem', 'position' => $pos++, 'name' => 'Services', 'item' => $site . 'services/']; }
+        $items[] = ['@type' => 'ListItem', 'position' => $pos, 'name' => get_the_title($id), 'item' => $og_url];
+        $graph[] = ['@type' => 'BreadcrumbList', '@id' => $og_url . '#breadcrumb', 'itemListElement' => $items];
+
+        // webpage / article node
+        $is_post = is_singular('post');
+        $ptype   = $is_post ? 'Article' : (get_post_meta($id, '_rk_seo_schema', true) ?: 'WebPage');
+        $page = [
+            '@type'      => $ptype,
+            '@id'        => $og_url . '#webpage',
+            'url'        => $og_url,
+            'name'       => $og_title,
+            'isPartOf'   => ['@id' => $site . '#website'],
+            'breadcrumb' => ['@id' => $og_url . '#breadcrumb'],
+            'inLanguage' => 'en-US',
         ];
-        if ($desc) { $schema['description'] = $desc; }
-        $out[] = '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '</script>';
+        if ($desc) { $page['description'] = $desc; }
+        if ($og_img) { $page['primaryImageOfPage'] = $og_img; }
+        if ($is_post) {
+            $page['author']        = ['@id' => $site . '#person'];
+            $page['publisher']     = ['@id' => $site . '#person'];
+            $page['headline']      = get_the_title($id);
+            $page['datePublished'] = get_the_date('c', $id);
+            $page['dateModified']  = get_the_modified_date('c', $id);
+            if ($og_img) { $page['image'] = $og_img; }
+        }
+        $graph[] = $page;
+
+        // Service schema (entity-rich) for service pages
+        if ($is_service) {
+            $about = [];
+            foreach (array_slice((array) ($svc_map[$id]['entities'] ?? []), 0, 8) as $e) { $about[] = ['@type' => 'Thing', 'name' => $e]; }
+            $graph[] = [
+                '@type'       => 'Service',
+                '@id'         => $og_url . '#service',
+                'name'        => get_the_title($id),
+                'description' => $desc ?: get_the_title($id),
+                'serviceType' => $svc_map[$id]['center'] ?? get_the_title($id),
+                'url'         => $og_url,
+                'provider'    => ['@id' => $site . '#person'],
+                'areaServed'  => ['@type' => 'Place', 'name' => 'Worldwide'],
+                'about'       => $about,
+            ];
+        }
+
+        // FAQPage from an Elementor accordion, if present
+        $faq   = [];
+        $data  = json_decode(get_post_meta($id, '_elementor_data', true), true);
+        if (is_array($data)) {
+            $stack = $data;
+            while ($stack) {
+                $el = array_pop($stack);
+                if (isset($el['widgetType']) && in_array($el['widgetType'], ['accordion', 'toggle'], true)) {
+                    foreach (($el['settings']['tabs'] ?? []) as $t) {
+                        $q = trim(wp_strip_all_tags($t['tab_title'] ?? ''));
+                        $a = trim(wp_strip_all_tags($t['tab_content'] ?? ''));
+                        if ($q !== '' && $a !== '') { $faq[] = ['@type' => 'Question', 'name' => $q, 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $a]]; }
+                    }
+                }
+                if (!empty($el['elements'])) { foreach ($el['elements'] as $c) { $stack[] = $c; } }
+            }
+        }
+        if ($faq) { $graph[] = ['@type' => 'FAQPage', '@id' => $og_url . '#faq', 'mainEntity' => $faq]; }
+    }
+
+    $out[] = '<script type="application/ld+json">' . wp_json_encode(['@context' => 'https://schema.org', '@graph' => $graph], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '</script>';
+
+    // manual custom schema (raw JSON-LD, output verbatim in addition to the automatic graph)
+    if ($id) {
+        $custom = trim((string) get_post_meta($id, '_rk_seo_schema_custom', true));
+        if ($custom !== '') {
+            $custom = str_ireplace(['</script>', '<script'], '', $custom);
+            $out[] = '<script type="application/ld+json">' . $custom . '</script>';
+        }
     }
 
     echo "\n<!-- RK SEO -->\n" . implode("\n", $out) . "\n";
