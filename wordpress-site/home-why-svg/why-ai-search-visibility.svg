@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="One brand cited across Google AI Overviews, ChatGPT and Perplexity">
+<style>.t{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+<rect width="1200" height="900" fill="#fafafa"/>
+<rect x="430" y="88" width="340" height="76" rx="16" fill="#111111"/>
+<circle cx="472" cy="126" r="7" fill="#e8a013"/>
+<text class="t" x="494" y="135" font-size="25" font-weight="600" letter-spacing="1.6" fill="#ffffff">YOUR BRAND</text>
+<path d="M600 164 V 214 M230 214 H 970 M230 214 V 268 M600 214 V 268 M970 214 V 268" stroke="#dcdcdc" stroke-width="2" fill="none"/>
+<circle cx="230" cy="214" r="4" fill="#dcdcdc"/><circle cx="970" cy="214" r="4" fill="#dcdcdc"/>
+<g>
+<rect x="80" y="268" width="300" height="420" rx="16" fill="#ffffff" stroke="#e8e8e8"/>
+<text class="t" x="230" y="322" font-size="24" font-weight="600" fill="#111111" text-anchor="middle">AI Overviews</text>
+<path d="M112 348 H 348" stroke="#efefef" stroke-width="2"/>
+<rect x="112" y="374" width="236" height="12" rx="6" fill="#ececec"/>
+<rect x="112" y="404" width="200" height="12" rx="6" fill="#ececec"/>
+<rect x="112" y="434" width="162" height="12" rx="6" fill="#ececec"/>
+<rect x="112" y="472" width="236" height="52" rx="11" fill="#fdf6e7" stroke="#f0dcae"/>
+<circle cx="136" cy="498" r="6" fill="#e8a013"/>
+<text class="t" x="154" y="506" font-size="19" font-weight="600" fill="#a5720c">yourbrand.com</text>
+<rect x="112" y="552" width="210" height="12" rx="6" fill="#ececec"/>
+<rect x="112" y="582" width="150" height="12" rx="6" fill="#ececec"/>
+</g>
+<g>
+<rect x="450" y="268" width="300" height="420" rx="16" fill="#ffffff" stroke="#e8e8e8"/>
+<text class="t" x="600" y="322" font-size="24" font-weight="600" fill="#111111" text-anchor="middle">ChatGPT</text>
+<path d="M482 348 H 718" stroke="#efefef" stroke-width="2"/>
+<rect x="482" y="374" width="236" height="12" rx="6" fill="#ececec"/>
+<rect x="482" y="404" width="186" height="12" rx="6" fill="#ececec"/>
+<rect x="482" y="434" width="214" height="12" rx="6" fill="#ececec"/>
+<rect x="482" y="472" width="236" height="52" rx="11" fill="#fdf6e7" stroke="#f0dcae"/>
+<circle cx="506" cy="498" r="6" fill="#e8a013"/>
+<text class="t" x="524" y="506" font-size="19" font-weight="600" fill="#a5720c">yourbrand.com</text>
+<rect x="482" y="552" width="196" height="12" rx="6" fill="#ececec"/>
+<rect x="482" y="582" width="140" height="12" rx="6" fill="#ececec"/>
+</g>
+<g>
+<rect x="820" y="268" width="300" height="420" rx="16" fill="#ffffff" stroke="#e8e8e8"/>
+<text class="t" x="970" y="322" font-size="24" font-weight="600" fill="#111111" text-anchor="middle">Perplexity</text>
+<path d="M852 348 H 1088" stroke="#efefef" stroke-width="2"/>
+<rect x="852" y="374" width="220" height="12" rx="6" fill="#ececec"/>
+<rect x="852" y="404" width="236" height="12" rx="6" fill="#ececec"/>
+<rect x="852" y="434" width="176" height="12" rx="6" fill="#ececec"/>
+<rect x="852" y="472" width="236" height="52" rx="11" fill="#fdf6e7" stroke="#f0dcae"/>
+<circle cx="876" cy="498" r="6" fill="#e8a013"/>
+<text class="t" x="894" y="506" font-size="19" font-weight="600" fill="#a5720c">yourbrand.com</text>
+<rect x="852" y="552" width="206" height="12" rx="6" fill="#ececec"/>
+<rect x="852" y="582" width="158" height="12" rx="6" fill="#ececec"/>
+</g>
+<text class="t" x="600" y="756" font-size="27" font-weight="600" fill="#111111" text-anchor="middle">One brand, cited on every surface</text>
+<text class="t" x="600" y="798" font-size="21" fill="#888888" text-anchor="middle">Visibility where the decision is actually formed</text>
+</svg>
