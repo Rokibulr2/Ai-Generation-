@@ -1,6 +1,6 @@
 # Industry landing page diagrams
 
-Two diagrams per industry page, built to the same conventions as
+Two diagrams per industry page (five pages, ten diagrams), built to the same conventions as
 `../blog-svg/`: `1200×900` viewBox, site palette (`#111111` ink, `#fafafa` panel,
 `#e8e8e8` borders, `#888888` secondary) with `#e8a013` as the only accent, system
 sans stack, and a `<g id="rk-watermark">` logo + domain block in the top-right.
@@ -18,6 +18,27 @@ sans stack, and a `<g id="rk-watermark">` logo + domain block in the top-right.
 |---|---|---|
 | `ind-saas-comparison-queries.svg` | 735 | The six decision-stage query types and the page family that should own each |
 | `ind-saas-page-architecture.svg` | 736 | Feature / use-case / integration / comparison page families under a product hub |
+
+## E-commerce & Retail — page 737
+
+| File | Attachment | Shows |
+|---|---|---|
+| `ind-ecom-product-schema.svg` | 740 | Marked-up product fields and the rich result they produce |
+| `ind-ecom-category-architecture.svg` | 741 | Category hierarchy beside indexable vs. blocked facet parameters |
+
+## Healthcare & Clinics — page 738
+
+| File | Attachment | Shows |
+|---|---|---|
+| `ind-health-eeat-trust.svg` | 742 | The four trust layers a YMYL page must carry |
+| `ind-health-local-service.svg` | 743 | Condition / treatment / location page structure |
+
+## Real Estate — page 739
+
+| File | Attachment | Shows |
+|---|---|---|
+| `ind-realestate-area-pages.svg` | 744 | Permanent area layer above temporary listings |
+| `ind-realestate-listing-lifecycle.svg` | 745 | What to do with a listing URL once it sells |
 
 ## Two layout bugs worth remembering
 
