@@ -1,0 +1,3146 @@
+{
+    "restaurants_731": [
+        {
+            "id": "93b2df0",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-hero",
+                "_css_classes": "rk-hero",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "ce1eebc",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-hero-grid",
+                        "_css_classes": "rk-hero-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "c9c971f",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-hero-left",
+                                "_css_classes": "rk-hero-left",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "c2ee94c",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-hero-badges\"><span class=\"rk-hbadge\"><span class=\"rk-dot\"></span>Local Pack Focused</span><span class=\"rk-hbadge\"><span class=\"rk-dot\"></span>Menu &amp; Review Schema</span><span class=\"rk-hbadge\"><span class=\"rk-dot\"></span>Multi-Location Ready</span></div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5fd52b7",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-eyebrow\">Industries / Restaurants &amp; Hospitality</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "3b98f4d",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "SEO, AEO &amp; GEO Services for Restaurants &amp; Hospitality",
+                                        "header_size": "h1",
+                                        "css_classes": "rk-h1",
+                                        "_css_classes": "rk-h1"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b4aefc2",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Diners and travellers decide in minutes, usually on a phone, and often without opening a website at all. I make your restaurant, caf&eacute; or hotel the option that gets shown, quoted and booked — across the Google local pack, AI Overviews and assistants like ChatGPT.</p>",
+                                        "css_classes": "rk-lead",
+                                        "_css_classes": "rk-lead"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "2473622",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-cta-row",
+                                        "_css_classes": "rk-cta-row",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "fbb0df4",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Book Strategy Call",
+                                                "link": {
+                                                    "url": "https://growwithrokibul.com/paid-seo-consultation/",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "css_classes": "rk-btn rk-btn-dark",
+                                                "_css_classes": "rk-btn rk-btn-dark"
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "c23170b",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Get Free SEO Audit",
+                                                "link": {
+                                                    "url": "/free-seo-audit/",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "css_classes": "rk-btn rk-btn-light",
+                                                "_css_classes": "rk-btn rk-btn-light"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                },
+                                {
+                                    "id": "7707892",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-hero-chips\"><span class=\"rk-chip-label\">What I work on</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Google Business Profile</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Restaurant schema</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Local Pack</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>AI Overviews</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Reviews</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Reservations</span></div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "0b5bacc",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-hero-right",
+                                "_css_classes": "rk-hero-right",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ad4bfa4",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https://growwithrokibul.com/wp-content/uploads/2026/07/Rokibul-Islam-Shuvo-SEO-AEO-GEO-Strategist-in-Bangladesh.png",
+                                            "id": 726,
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "css_classes": "rk-hero-photo",
+                                        "_css_classes": "rk-hero-photo"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "c0269df",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-hero-float\"><div class=\"rk-hf-ico\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg></div><div><div class=\"rk-hf-num\">235+</div><div class=\"rk-hf-lbl\">Projects delivered worldwide</div></div></div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "2a8da87",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-stats",
+                "_css_classes": "rk-stats",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "886b6b7",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-stats-band",
+                        "_css_classes": "rk-stats-band",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "77e6a10",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "85d3724",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">235+</div><div class=\"rk-stat-label\">Projects Completed</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "7202d66",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "dac652e",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">6+</div><div class=\"rk-stat-label\">Years Experience</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "dccf218",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "0ab2f98",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">70+</div><div class=\"rk-stat-label\">Industries</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "2c0ed2c",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a9da7cb",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">300M+</div><div class=\"rk-stat-label\">Impressions</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "e8ef517",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "1e35c31",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">5M+</div><div class=\"rk-stat-label\">Clicks</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "55a0086",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a6e8a92",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">4.9&#9733;</div><div class=\"rk-stat-label\">Client Rating</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "abff992",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-prose-sec",
+                "_css_classes": "rk-prose-sec",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "b434167",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Why Restaurant &amp; Hospitality Search Is Different",
+                        "header_size": "h2",
+                        "css_classes": "rk-prose-lead",
+                        "_css_classes": "rk-prose-lead"
+                    },
+                    "elements": []
+                },
+                {
+                    "id": "8c7b200",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>In most industries a search leads to a website. In hospitality it usually leads to a map result, a rating and an opening-hours line — the decision is made before your site is ever opened. Distance, prominence and whether you are open right now outrank everything you have written.</p><p>That changes where the work belongs. Your profile, your structured data, your review flow and your hours accuracy are the product surface. The website supports them; it rarely leads.</p><figure class=\"rk-prose-fig\"><img src=\"https://growwithrokibul.com/wp-content/uploads/2026/07/ind-restaurant-local-pack.svg\" alt=\"A near-me restaurant query resolving into a local pack result with hours and ratings\" width=\"1200\" height=\"900\" loading=\"lazy\" /><figcaption>Intent, distance and opening hours are resolved before a website is opened.</figcaption></figure>",
+                        "css_classes": "rk-body",
+                        "_css_classes": "rk-body"
+                    },
+                    "elements": []
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "eb0b0db",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-entity-sec",
+                "_css_classes": "rk-entity-sec",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "303b224",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-entity-grid",
+                        "_css_classes": "rk-entity-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "f919772",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<img class=\"rk-viz-img\" src=\"https://growwithrokibul.com/wp-content/uploads/rk-assets/aeo-geo-entity-map.svg\" alt=\"AEO &amp; GEO semantic entity and attribute map\" loading=\"lazy\">"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "08b12af",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-entity-copy",
+                                "_css_classes": "rk-entity-copy",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "121aadc",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "Semantic &amp; Entity Optimization"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "ddb8695",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "The Entities &amp; Attributes I Optimize For",
+                                        "header_size": "h2",
+                                        "css_classes": "",
+                                        "_css_classes": ""
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b9e59bb",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Search engines and assistants understand a venue as an entity with attributes — cuisine, price band, location, hours, dietary options and policies. I make each of those explicit and consistent so your venue qualifies for constrained, conversational queries instead of being filtered out of them.</p>",
+                                        "css_classes": "",
+                                        "_css_classes": ""
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "e3ce58e",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-entity-block\"><h4>Core Entities</h4><div class=\"rk-entity-tags\"><span class=\"rk-etag is-entity\">Restaurant</span><span class=\"rk-etag is-entity\">Menu</span><span class=\"rk-etag is-entity\">Local Pack</span><span class=\"rk-etag is-entity\">Google Business Profile</span><span class=\"rk-etag is-entity\">Hotel</span><span class=\"rk-etag is-entity\">Reservations</span><span class=\"rk-etag is-entity\">Reviews</span></div></div><div class=\"rk-entity-block\"><h4>Key Attributes</h4><div class=\"rk-entity-tags\"><span class=\"rk-etag is-attr\">Opening Hours</span><span class=\"rk-etag is-attr\">Cuisine Type</span><span class=\"rk-etag is-attr\">Price Range</span><span class=\"rk-etag is-attr\">Halal / Vegan</span><span class=\"rk-etag is-attr\">Delivery Radius</span><span class=\"rk-etag is-attr\">NAP Consistency</span></div></div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "d019085",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pfeatures",
+                "_css_classes": "rk-pfeatures",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "5a16759",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "95ddad2",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "What’s included"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "7ca41a4",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "What a Hospitality Engagement Includes",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "f25d9a1",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pfeat-grid",
+                        "_css_classes": "rk-pfeat-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "f7d0b8f",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "1ff9266",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">01</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "95fe53c",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Google Business Profile",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5bb123b",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Categories, attributes, photography, service areas and hours kept accurate — including holidays, when most venues quietly lose visibility.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "0165c7c",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "0a1d953",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">02</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5e1b810",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Menu &amp; Restaurant Schema",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4240a7e",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Dishes, prices and dietary attributes marked up so your menu is parseable data rather than an unreadable PDF.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "c95d82d",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "c2fe8b4",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">03</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "284b261",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Local Pack &amp; Map Visibility",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "3655e84",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Proximity, prominence and relevance signals strengthened so you appear for “near me” and cuisine-modified searches.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "6ac72c5",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "9932fc0",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">04</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b2fbe9a",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Reviews &amp; Reputation",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "6127607",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>A steady review flow built into service, plus response handling that converts readers who are comparing you on how you handle problems.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "c74016b",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "907e4a6",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">05</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b88bd99",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Multi-Location Architecture",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "ac06ef0",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Distinct, genuinely local pages per venue with clean internal linking — no duplicated templates competing with each other.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "1986801",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a31f39e",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">06</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "d3fb72a",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "AI Answer Visibility",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "a717bba",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Facts structured so assistants can recommend you confidently for conversational, constraint-heavy booking questions.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "7bccf91",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pband",
+                "_css_classes": "rk-pband",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "b6a1a8a",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pband-inner",
+                        "_css_classes": "rk-pband-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "5919e89",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-psplit",
+                                "_css_classes": "rk-psplit",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "2699a50",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-text",
+                                        "_css_classes": "rk-psplit-text",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "ceb6d6e",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Why This Pays Off in Hospitality",
+                                                "header_size": "h2",
+                                                "css_classes": "rk-h3",
+                                                "_css_classes": "rk-h3"
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "6775121",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "<p>Hospitality demand is immediate and local. Visibility improvements translate into covers and bookings faster than in almost any other sector, because the gap between discovery and purchase is measured in minutes rather than weeks.</p>",
+                                                "css_classes": "rk-body",
+                                                "_css_classes": "rk-body"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                },
+                                {
+                                    "id": "f232b56",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-list",
+                                        "_css_classes": "rk-psplit-list",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "ddd3aa9",
+                                            "elType": "widget",
+                                            "widgetType": "html",
+                                            "settings": {
+                                                "html": "<div class=\"rk-plist\"><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Map-pack visibility for “near me” and cuisine-led searches</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Menus that can be quoted by assistants, not buried in a PDF</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Direct bookings that reduce commission paid to aggregators</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Accurate hours and policies, so you stop losing ready buyers</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Review signals that compound across maps and AI answers</span></div></div>"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "4e7d799",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pband rk-pwhofor",
+                "_css_classes": "rk-pband rk-pwhofor",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "2437947",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pband-inner",
+                        "_css_classes": "rk-pband-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "dbb08de",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-psplit",
+                                "_css_classes": "rk-psplit",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "f51c20d",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-text",
+                                        "_css_classes": "rk-psplit-text",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "fe3459b",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Who This Is For",
+                                                "header_size": "h2",
+                                                "css_classes": "rk-h3",
+                                                "_css_classes": "rk-h3"
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "5ace749",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "<p>This work suits hospitality operators who already deliver a good experience and are losing demand at the discovery stage rather than the service stage.</p>",
+                                                "css_classes": "rk-body",
+                                                "_css_classes": "rk-body"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                },
+                                {
+                                    "id": "0192950",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-list",
+                                        "_css_classes": "rk-psplit-list",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "5553e32",
+                                            "elType": "widget",
+                                            "widgetType": "html",
+                                            "settings": {
+                                                "html": "<div class=\"rk-plist\"><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Independent restaurants and caf&eacute;s</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Multi-location groups and franchises</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Hotels, guest houses and boutique stays</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Cloud kitchens and delivery-first brands</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Event venues, catering and hospitality groups</span></div></div>"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "9c698d8",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pfeatures rk-pprocess",
+                "_css_classes": "rk-pfeatures rk-pprocess",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "77df721",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "21b4626",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">How it works</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "9111bfb",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "A Clear, Proven Process",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "636809f",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Every engagement follows the same transparent path — from what a search engine can currently establish about your venue, through to measurable covers and bookings.</p>",
+                                "css_classes": "rk-body",
+                                "_css_classes": "rk-body"
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "4d5ba14",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pfeat-grid rk-pprocess-grid",
+                        "_css_classes": "rk-pfeat-grid rk-pprocess-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "46c8719",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "fbc80b6",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 01</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "07d0ac3",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Audit &amp; Discovery",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5921215",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>I review your profile, hours accuracy, menu markup, reviews and local competitors, and test what assistants currently say about you.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "2877282",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "601fed4",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 02</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "51564f3",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Strategy &amp; Roadmap",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4f01355",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>A prioritised, plain-English plan ordered by impact — usually profile accuracy and menu data before anything else.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "4596d09",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "5e8ef3d",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 03</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4e673fc",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Implementation",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "62797c5",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>I implement the schema, page structure, profile work and review mechanics, or guide your team through each step.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "56a6a93",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "812be29",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 04</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4bb3185",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Measurement &amp; Iteration",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "c310a80",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Reporting on map impressions, direction requests, calls and bookings — the actions that precede a cover, not vanity metrics.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "5198e6b",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-forecast",
+                "_css_classes": "rk-forecast",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "1d4b32f",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "a3d4f28",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">Conversion Forecast</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "26d159d",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "What Growth Could Look Like",
+                                "header_size": "h2",
+                                "css_classes": "",
+                                "_css_classes": ""
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "562c0b4",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-fc-inner",
+                        "_css_classes": "rk-fc-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "c12c027",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-fc-chart-wrap\"><img src=\"https://growwithrokibul.com/wp-content/uploads/rk-assets/aeo-geo-forecast.svg\" alt=\"AEO &amp; GEO projected organic growth forecast\" loading=\"lazy\"></div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bed8ae1",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-fc-metrics",
+                                "_css_classes": "rk-fc-metrics",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "c334c79",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">Top 3</span></div><div class=\"rk-fc-cap\">Map-pack presence for core local terms</div></div><div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">+50%</span></div><div class=\"rk-fc-cap\">Direction requests and calls</div></div><div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">+35%</span></div><div class=\"rk-fc-cap\">Direct bookings versus aggregators</div></div><div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">Cited</span></div><div class=\"rk-fc-cap\">In assistant answers for local intent</div></div><div class=\"rk-fc-note\">Illustrative ranges based on typical hospitality engagements, not guaranteed outcomes. Actual results depend on your baseline, location density and competition.</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "b1e51e7",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pfaq",
+                "_css_classes": "rk-pfaq",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "afce178",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "78c8f1c",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">FAQ</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "f360f0a",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Frequently Asked Questions",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "965a98d",
+                    "elType": "widget",
+                    "widgetType": "accordion",
+                    "settings": {
+                        "tabs": [
+                            {
+                                "_id": "58fe9fc",
+                                "tab_title": "How long does it take to rank in the local pack?",
+                                "tab_content": "<p>Profile and hours accuracy can shift visibility within weeks, because you are fixing disqualifying problems rather than competing on authority. Genuine competitive movement in a dense area usually takes three to six months, and review velocity is normally the slowest input.</p>"
+                            },
+                            {
+                                "_id": "fb1e54f",
+                                "tab_title": "Do I need a website if I have a Google Business Profile?",
+                                "tab_content": "<p>Yes. The profile wins the impression, but your site is where menus, policies and specifics live in a form that both search engines and assistants can quote. Venues relying on a profile alone tend to be described inaccurately by AI tools, because there is nothing authoritative to retrieve.</p>"
+                            },
+                            {
+                                "_id": "169d01e",
+                                "tab_title": "Can AI assistants recommend my restaurant?",
+                                "tab_content": "<p>They already recommend someone for the questions your guests are asking. Whether that is you depends on how clearly your cuisine, price range, dietary options and hours are published, and whether independent sources agree with them.</p>"
+                            },
+                            {
+                                "_id": "27e5820",
+                                "tab_title": "Do you work with multi-location groups?",
+                                "tab_content": "<p>Yes, and the approach differs from single venues. The focus moves to location page architecture, preventing venues from competing with each other, consistent profile management and location-level reporting so you can see which sites actually drive demand.</p>"
+                            }
+                        ],
+                        "css_classes": "rk-accordion",
+                        "_css_classes": "rk-accordion",
+                        "selected_icon": {
+                            "value": "fas fa-plus",
+                            "library": "fa-solid"
+                        },
+                        "selected_active_icon": {
+                            "value": "fas fa-minus",
+                            "library": "fa-solid"
+                        }
+                    },
+                    "elements": []
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "50aa4c7",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-cta",
+                "_css_classes": "rk-cta",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "36686d4",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-cta-box",
+                        "_css_classes": "rk-cta-box",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "ea3c210",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Ready to Fill More Tables and Rooms?",
+                                "header_size": "h2",
+                                "css_classes": "rk-cta-title",
+                                "_css_classes": "rk-cta-title"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "45ce7c4",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Let’s make your venue the one that gets shown, quoted and booked — before a guest ever opens a website.</p>",
+                                "css_classes": "rk-cta-sub",
+                                "_css_classes": "rk-cta-sub"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "fa2f3e5",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-cta-row rk-center-row",
+                                "_css_classes": "rk-cta-row rk-center-row",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "88a3534",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Book Strategy Call",
+                                        "link": {
+                                            "url": "https://growwithrokibul.com/paid-seo-consultation/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "css_classes": "rk-btn rk-btn-white",
+                                        "_css_classes": "rk-btn rk-btn-white"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "62cd3a0",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Get Free SEO Audit",
+                                        "link": {
+                                            "url": "/free-seo-audit/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "css_classes": "rk-btn rk-btn-outline",
+                                        "_css_classes": "rk-btn rk-btn-outline"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "bk19196e",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-bookcta",
+                "_css_classes": "rk-bookcta",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "bki19196e",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-bookcta-inner",
+                        "_css_classes": "rk-bookcta-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "bke19196e",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">Book A Slot</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bkh19196e",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Book a Consultation With Rokibul Islam Shuvo",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bkt19196e",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Book a slot with Rokibul Islam Shuvo to review your local visibility, your menu markup and how assistants currently describe your venue.</p>",
+                                "css_classes": "rk-body",
+                                "_css_classes": "rk-body"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bkr19196e",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-cta-row rk-center-row",
+                                "_css_classes": "rk-cta-row rk-center-row",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "bkb119196e",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Book a Consultation",
+                                        "link": {
+                                            "url": "/paid-seo-consultation/"
+                                        },
+                                        "css_classes": "rk-btn rk-btn-dark",
+                                        "_css_classes": "rk-btn rk-btn-dark"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "bkb219196e",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Get Free SEO Audit",
+                                        "link": {
+                                            "url": "/free-seo-audit/"
+                                        },
+                                        "css_classes": "rk-btn rk-btn-light",
+                                        "_css_classes": "rk-btn rk-btn-light"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "sc19196e",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-seo-content",
+                "_css_classes": "rk-seo-content",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "sci19196e",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<h2>SEO, AEO and GEO Services for Restaurants and Hospitality</h2>\n<p>Hospitality is the most decision-compressed industry I work in. A diner picks a table in under two minutes, usually one-handed, usually while already moving. A traveller books a room after comparing four options in a single sitting. Neither of them reads a homepage. They read a map result, a rating, an opening-hours line and, increasingly, a paragraph an AI assistant wrote about you.</p>\n<p>That means the winning work happens before anyone reaches your website. It happens in the local pack, in structured data, in review signals and in whether a language model can state your cuisine, price range and opening hours without guessing.</p>\n\n<h3>Local search decides who gets the booking</h3>\n<p>Most restaurant discovery ends in the map pack. Three results, ranked on relevance, distance and prominence, with an <em>Open now</em> label doing more persuasive work than any tagline you will ever write. If your hours are wrong on a public holiday, you are not third — you are invisible for that query.</p>\n<p>The unglamorous work carries this: a complete and actively maintained Google Business Profile, categories that match how people actually search, service attributes filled in, real photography rather than stock, and name, address and phone details identical everywhere they appear. Conflicting details across directories and aggregators are the single most common reason a well-reviewed restaurant underperforms in maps.</p>\n\n<h3>Your menu is data, not decoration</h3>\n<p>A menu published as a PDF or a flat image is invisible to every system that matters. It cannot be parsed, cannot be quoted, and cannot answer a constrained question like “vegan mains under £15 near me”.</p>\n<p>Marked up properly, the same menu becomes an answer. Dish names, prices, cuisine, and dietary attributes such as halal, vegan and gluten-free stop being marketing copy and start being retrievable facts. Combined with <code>Restaurant</code>, <code>Menu</code> and <code>OpeningHoursSpecification</code> schema, that data is what an assistant repeats back to a hungry buyer. Anything you leave unmarked is left to inference, and inference favours whoever documented themselves better.</p>\n\n<figure class=\"rk-prose-fig\"><img src=\"https://growwithrokibul.com/wp-content/uploads/2026/07/ind-restaurant-menu-schema.svg\" alt=\"Structured menu data answering a dietary question inside an AI assistant\" width=\"1200\" height=\"900\" loading=\"lazy\" /><figcaption>A marked-up menu can be quoted. A PDF cannot.</figcaption></figure>\n\n<h3>Reviews are the ranking signal you cannot write yourself</h3>\n<p>Rating and review volume feed both map rankings and the trust layer that generative engines lean on. What matters is not a one-off push to hit a number, but velocity and recency — a steady flow of recent, specific reviews beats a large pile of old ones.</p>\n<p>I set up the asking mechanics so requests land at the moment the guest is happiest, then make sure responses are handled properly. Replying to criticism in public, calmly and specifically, converts better than any five-star average, because prospective guests read how you handle problems.</p>\n\n<h3>Multi-location groups and franchises</h3>\n<p>Groups fail differently from independents. Their problem is rarely visibility for the brand name and almost always cannibalisation between locations, thin duplicated location pages, and profiles managed inconsistently by individual venues.</p>\n<p>The fix is architectural: one genuinely distinct page per location with real local content, clean internal linking from a parent hub, consistent naming across every profile, and location-level tracking so you can see which venues are actually pulling demand. This is the same structural discipline covered in my <a href=\"https://growwithrokibul.com/services/local-seo/\">local SEO services</a>, applied at group scale.</p>\n\n<h3>Hotels and hospitality: a longer, researched decision</h3>\n<p>Hotels behave differently from restaurants. The consideration window is longer, the queries are more specific — amenities, proximity to a venue, cancellation terms, family suitability — and third-party platforms occupy much of the results page.</p>\n<p>The play is to answer those specific questions on your own pages, in extractable form, so you get quoted directly rather than only through an aggregator that charges commission on the booking. Amenity lists, policy clarity and genuine local guides earn that position.</p>\n\n<h3>Being the answer, not just the listing</h3>\n<p>Answer Engine Optimisation and Generative Engine Optimisation matter more in hospitality than in almost any other vertical, because the queries are naturally conversational. People ask assistants for a quiet restaurant for six on a Friday, or a hotel near a specific venue with late check-out. Those are constraint-filtering questions, and only machine-readable operators qualify for consideration.</p>\n<p>My approach here mirrors the method in my <a href=\"https://growwithrokibul.com/services/aeo-geo/\">AEO and GEO services</a>: make the facts explicit, keep them consistent everywhere, and give independent sources something accurate to corroborate.</p>\n\n<h3>What an engagement actually involves</h3>\n<p>I start by auditing what a search engine and an assistant can currently establish about you — which is often less than owners expect. From there the sequence is access and accuracy first, then structure, then the reputation work that compounds. Technical health underpins all of it; if your pages are slow on a phone on mobile data, nothing else compensates, which is why <a href=\"https://growwithrokibul.com/services/technical-seo/\">technical SEO</a> is never optional.</p>\n<p>If you want to know what is currently holding your venue back, a <a href=\"https://growwithrokibul.com/free-seo-audit/\">free SEO audit</a> is the fastest way to find out.</p>",
+                        "css_classes": "rk-seo-prose",
+                        "_css_classes": "rk-seo-prose"
+                    },
+                    "elements": []
+                }
+            ],
+            "isInner": false
+        }
+    ],
+    "saas_732": [
+        {
+            "id": "93b2df0",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-hero",
+                "_css_classes": "rk-hero",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "ce1eebc",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-hero-grid",
+                        "_css_classes": "rk-hero-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "c9c971f",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-hero-left",
+                                "_css_classes": "rk-hero-left",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "c2ee94c",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-hero-badges\"><span class=\"rk-hbadge\"><span class=\"rk-dot\"></span>Product-Led SEO</span><span class=\"rk-hbadge\"><span class=\"rk-dot\"></span>Comparison Query Coverage</span><span class=\"rk-hbadge\"><span class=\"rk-dot\"></span>Docs &amp; Integrations</span></div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5fd52b7",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-eyebrow\">Industries / SaaS &amp; Technology</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "3b98f4d",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "SEO, AEO &amp; GEO Services for SaaS &amp; Technology",
+                                        "header_size": "h1",
+                                        "css_classes": "rk-h1",
+                                        "_css_classes": "rk-h1"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b4aefc2",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Software buyers build a shortlist long before they reach your brand name — through category searches, comparison pages, review platforms and, increasingly, an assistant summarising the options. I make your product one of the few that gets shortlisted, cited and trialled.</p>",
+                                        "css_classes": "rk-lead",
+                                        "_css_classes": "rk-lead"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "2473622",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-cta-row",
+                                        "_css_classes": "rk-cta-row",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "fbb0df4",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Book Strategy Call",
+                                                "link": {
+                                                    "url": "https://growwithrokibul.com/paid-seo-consultation/",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "css_classes": "rk-btn rk-btn-dark",
+                                                "_css_classes": "rk-btn rk-btn-dark"
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "c23170b",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Get Free SEO Audit",
+                                                "link": {
+                                                    "url": "/free-seo-audit/",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "css_classes": "rk-btn rk-btn-light",
+                                                "_css_classes": "rk-btn rk-btn-light"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                },
+                                {
+                                    "id": "7707892",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-hero-chips\"><span class=\"rk-chip-label\">What I work on</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Comparison pages</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Use-case pages</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Integrations</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Documentation</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>Schema</span><span class=\"rk-chip\"><span class=\"rk-cdot\"></span>AI citations</span></div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "0b5bacc",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-hero-right",
+                                "_css_classes": "rk-hero-right",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ad4bfa4",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https://growwithrokibul.com/wp-content/uploads/2026/07/Rokibul-Islam-Shuvo-SEO-AEO-GEO-Strategist-in-Bangladesh.png",
+                                            "id": 726,
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "css_classes": "rk-hero-photo",
+                                        "_css_classes": "rk-hero-photo"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "c0269df",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-hero-float\"><div class=\"rk-hf-ico\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg></div><div><div class=\"rk-hf-num\">235+</div><div class=\"rk-hf-lbl\">Projects delivered worldwide</div></div></div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "2a8da87",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-stats",
+                "_css_classes": "rk-stats",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "886b6b7",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-stats-band",
+                        "_css_classes": "rk-stats-band",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "77e6a10",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "85d3724",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">235+</div><div class=\"rk-stat-label\">Projects Completed</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "7202d66",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "dac652e",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">6+</div><div class=\"rk-stat-label\">Years Experience</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "dccf218",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "0ab2f98",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">70+</div><div class=\"rk-stat-label\">Industries</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "2c0ed2c",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a9da7cb",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">300M+</div><div class=\"rk-stat-label\">Impressions</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "e8ef517",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "1e35c31",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">5M+</div><div class=\"rk-stat-label\">Clicks</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "55a0086",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-stat",
+                                "_css_classes": "rk-stat",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a6e8a92",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-stat-value\">4.9&#9733;</div><div class=\"rk-stat-label\">Client Rating</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "abff992",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-prose-sec",
+                "_css_classes": "rk-prose-sec",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "b434167",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Why SaaS &amp; Technology Search Is Different",
+                        "header_size": "h2",
+                        "css_classes": "rk-prose-lead",
+                        "_css_classes": "rk-prose-lead"
+                    },
+                    "elements": []
+                },
+                {
+                    "id": "8c7b200",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>In most industries the buyer searches for what you sell. In software they search for the problem, then the category, then a shortlist — and your brand name enters late, if at all. The queries that decide the deal sit outside your own marketing language.</p><p>That makes coverage the constraint. If there is no page behind <em>[competitor] alternatives</em> or <em>[category] for [role]</em>, you are simply absent from the comparison, however good the product is.</p><figure class=\"rk-prose-fig\"><img src=\"https://growwithrokibul.com/wp-content/uploads/2026/07/ind-saas-comparison-queries.svg\" alt=\"The comparison, alternative and use-case queries a SaaS product must own\" width=\"1200\" height=\"900\" loading=\"lazy\" /><figcaption>Six decision-stage intents — one page each, not one features page for all.</figcaption></figure>",
+                        "css_classes": "rk-body",
+                        "_css_classes": "rk-body"
+                    },
+                    "elements": []
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "eb0b0db",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-entity-sec",
+                "_css_classes": "rk-entity-sec",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "303b224",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-entity-grid",
+                        "_css_classes": "rk-entity-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "f919772",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<img class=\"rk-viz-img\" src=\"https://growwithrokibul.com/wp-content/uploads/rk-assets/aeo-geo-entity-map.svg\" alt=\"AEO &amp; GEO semantic entity and attribute map\" loading=\"lazy\">"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "08b12af",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-entity-copy",
+                                "_css_classes": "rk-entity-copy",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "121aadc",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "Semantic &amp; Entity Optimization"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "ddb8695",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "The Entities &amp; Attributes I Optimize For",
+                                        "header_size": "h2",
+                                        "css_classes": "",
+                                        "_css_classes": ""
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b9e59bb",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Search engines and language models resolve software as an entity: a product, in a category, with a pricing model, integrations, and competitors it is compared against. I make each of those explicit so your product can be retrieved, compared and recommended accurately.</p>",
+                                        "css_classes": "",
+                                        "_css_classes": ""
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "e3ce58e",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-entity-block\"><h4>Core Entities</h4><div class=\"rk-entity-tags\"><span class=\"rk-etag is-entity\">SoftwareApplication</span><span class=\"rk-etag is-entity\">Product Category</span><span class=\"rk-etag is-entity\">Integrations</span><span class=\"rk-etag is-entity\">Competitors</span><span class=\"rk-etag is-entity\">Use Cases</span><span class=\"rk-etag is-entity\">Documentation</span><span class=\"rk-etag is-entity\">Review Platforms</span></div></div><div class=\"rk-entity-block\"><h4>Key Attributes</h4><div class=\"rk-entity-tags\"><span class=\"rk-etag is-attr\">Pricing Model</span><span class=\"rk-etag is-attr\">Free Trial</span><span class=\"rk-etag is-attr\">Deployment</span><span class=\"rk-etag is-attr\">API Access</span><span class=\"rk-etag is-attr\">Compliance</span><span class=\"rk-etag is-attr\">Supported Platforms</span></div></div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "d019085",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pfeatures",
+                "_css_classes": "rk-pfeatures",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "5a16759",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "95ddad2",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "What’s included"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "7ca41a4",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "What a SaaS Engagement Includes",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "f25d9a1",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pfeat-grid",
+                        "_css_classes": "rk-pfeat-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "f7d0b8f",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "1ff9266",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">01</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "95fe53c",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Category &amp; Comparison Pages",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5bb123b",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Coverage for “best [category]”, “vs” and “alternatives” queries — the pages that decide a shortlist before a demo is booked.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "0165c7c",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "0a1d953",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">02</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5e1b810",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Use-Case &amp; Persona Pages",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4240a7e",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Role and industry framing so buyers recognise their own situation instead of decoding generic feature copy.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "c95d82d",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "c2fe8b4",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">03</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "284b261",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Integration Page Programme",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "3655e84",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>A page per meaningful integration, capturing the high-intent searches your partners’ users are already running.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "6ac72c5",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "9932fc0",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">04</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b2fbe9a",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Documentation &amp; Changelog SEO",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "6127607",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Docs made crawlable, structured and internally linked — usually the strongest and most neglected authority asset you own.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "c74016b",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "907e4a6",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">05</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "b88bd99",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Product-Led Content",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "ac06ef0",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Content mapped to trial and activation intent, so organic traffic turns into signups rather than sessions.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "1986801",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a31f39e",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">06</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "d3fb72a",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "AI Answer Visibility",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "a717bba",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Structured facts and corroboration so assistants describe your pricing, integrations and fit correctly when comparing tools.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "7bccf91",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pband",
+                "_css_classes": "rk-pband",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "b6a1a8a",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pband-inner",
+                        "_css_classes": "rk-pband-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "5919e89",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-psplit",
+                                "_css_classes": "rk-psplit",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "2699a50",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-text",
+                                        "_css_classes": "rk-psplit-text",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "ceb6d6e",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Why This Pays Off for Software",
+                                                "header_size": "h2",
+                                                "css_classes": "rk-h3",
+                                                "_css_classes": "rk-h3"
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "6775121",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "<p>Software has high margins and compounding retention, so a single additional qualified trial per week is worth far more than the traffic number suggests. Decision-stage coverage is where that leverage sits.</p>",
+                                                "css_classes": "rk-body",
+                                                "_css_classes": "rk-body"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                },
+                                {
+                                    "id": "f232b56",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-list",
+                                        "_css_classes": "rk-psplit-list",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "ddd3aa9",
+                                            "elType": "widget",
+                                            "widgetType": "html",
+                                            "settings": {
+                                                "html": "<div class=\"rk-plist\"><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Visibility on comparison and alternative queries that precede purchase</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Lower reliance on paid acquisition for category terms</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Accurate representation inside AI-generated tool comparisons</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Documentation working as an authority asset, not a cost centre</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>A page architecture that scales with the product roadmap</span></div></div>"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "4e7d799",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pband rk-pwhofor",
+                "_css_classes": "rk-pband rk-pwhofor",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "2437947",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pband-inner",
+                        "_css_classes": "rk-pband-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "dbb08de",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-psplit",
+                                "_css_classes": "rk-psplit",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "f51c20d",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-text",
+                                        "_css_classes": "rk-psplit-text",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "fe3459b",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Who This Is For",
+                                                "header_size": "h2",
+                                                "css_classes": "rk-h3",
+                                                "_css_classes": "rk-h3"
+                                            },
+                                            "elements": []
+                                        },
+                                        {
+                                            "id": "5ace749",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "<p>This work suits software companies with a product that already delivers, where the constraint is being found and correctly understood during evaluation.</p>",
+                                                "css_classes": "rk-body",
+                                                "_css_classes": "rk-body"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                },
+                                {
+                                    "id": "0192950",
+                                    "elType": "container",
+                                    "settings": {
+                                        "css_classes": "rk-psplit-list",
+                                        "_css_classes": "rk-psplit-list",
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "5553e32",
+                                            "elType": "widget",
+                                            "widgetType": "html",
+                                            "settings": {
+                                                "html": "<div class=\"rk-plist\"><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>B2B SaaS platforms in competitive categories</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Product-led and free-trial businesses</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Developer tools and API-first products</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Shopify and WordPress app developers</span></div><div class=\"rk-bullet\"><span class=\"rk-check\">&#10003;</span><span>Technology firms entering a new category</span></div></div>"
+                                            },
+                                            "elements": []
+                                        }
+                                    ],
+                                    "isInner": true
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "9c698d8",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pfeatures rk-pprocess",
+                "_css_classes": "rk-pfeatures rk-pprocess",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "77df721",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "21b4626",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">How it works</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "9111bfb",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "A Clear, Proven Process",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "636809f",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Every engagement follows the same transparent path — from where you are absent today, through to qualified trials you can attribute.</p>",
+                                "css_classes": "rk-body",
+                                "_css_classes": "rk-body"
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "4d5ba14",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-pfeat-grid rk-pprocess-grid",
+                        "_css_classes": "rk-pfeat-grid rk-pprocess-grid",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "46c8719",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "fbc80b6",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 01</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "07d0ac3",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Audit &amp; Discovery",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "5921215",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>I map your category, competitors and decision-stage queries, and test how assistants currently describe your product.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "2877282",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "601fed4",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 02</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "51564f3",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Strategy &amp; Roadmap",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4f01355",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>A prioritised page plan ordered by commercial value — which comparison, use-case and integration pages to build, and in what order.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "4596d09",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "5e8ef3d",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 03</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4e673fc",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Implementation",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "62797c5",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>I build or brief the pages, fix the technical and rendering issues, and get documentation crawlable and structured.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "56a6a93",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-pfeat-card",
+                                "_css_classes": "rk-pfeat-card",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "812be29",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-pfeat-num\">STEP 04</div>"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "4bb3185",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Measurement &amp; Iteration",
+                                        "header_size": "h3",
+                                        "css_classes": "rk-card-title",
+                                        "_css_classes": "rk-card-title"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "c310a80",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Reporting on qualified trials, assisted conversions and share of visibility on the queries that precede a purchase.</p>",
+                                        "css_classes": "rk-card-text",
+                                        "_css_classes": "rk-card-text"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "5198e6b",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-forecast",
+                "_css_classes": "rk-forecast",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "1d4b32f",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "a3d4f28",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">Conversion Forecast</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "26d159d",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "What Growth Could Look Like",
+                                "header_size": "h2",
+                                "css_classes": "",
+                                "_css_classes": ""
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "562c0b4",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-fc-inner",
+                        "_css_classes": "rk-fc-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "c12c027",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-fc-chart-wrap\"><img src=\"https://growwithrokibul.com/wp-content/uploads/rk-assets/aeo-geo-forecast.svg\" alt=\"AEO &amp; GEO projected organic growth forecast\" loading=\"lazy\"></div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bed8ae1",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-fc-metrics",
+                                "_css_classes": "rk-fc-metrics",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "c334c79",
+                                    "elType": "widget",
+                                    "widgetType": "html",
+                                    "settings": {
+                                        "html": "<div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">+60%</span></div><div class=\"rk-fc-cap\">Coverage of decision-stage queries</div></div><div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">+40%</span></div><div class=\"rk-fc-cap\">Qualified organic trials</div></div><div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">Cited</span></div><div class=\"rk-fc-cap\">In AI tool comparisons</div></div><div class=\"rk-fc-metric\"><div class=\"rk-fc-val\"><span class=\"rk-up\">-25%</span></div><div class=\"rk-fc-cap\">Reliance on paid category terms</div></div><div class=\"rk-fc-note\">Illustrative ranges based on typical SaaS engagements, not guaranteed outcomes. Actual results depend on category competition, product maturity and existing coverage.</div>"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "b1e51e7",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-pfaq",
+                "_css_classes": "rk-pfaq",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "afce178",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-sec-head",
+                        "_css_classes": "rk-sec-head",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "78c8f1c",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">FAQ</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "f360f0a",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Frequently Asked Questions",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "965a98d",
+                    "elType": "widget",
+                    "widgetType": "accordion",
+                    "settings": {
+                        "tabs": [
+                            {
+                                "_id": "58fe9fc",
+                                "tab_title": "How is SaaS SEO different from regular SEO?",
+                                "tab_content": "<p>The intent structure differs. Software buyers search categories, comparisons and alternatives rather than your brand, so coverage of decision-stage queries matters more than publishing volume. The technical layer also matters more, because JavaScript-heavy apps and documentation platforms frequently block crawlers by default.</p>"
+                            },
+                            {
+                                "_id": "fb1e54f",
+                                "tab_title": "Are comparison and “alternatives” pages worth building?",
+                                "tab_content": "<p>They are usually the highest-converting organic pages a software company owns, because the buyer is at the end of the decision. They only work if they are honest and specific — a comparison that never concedes a point reads as marketing and gets ignored by both readers and models.</p>"
+                            },
+                            {
+                                "_id": "169d01e",
+                                "tab_title": "Does documentation really affect SEO?",
+                                "tab_content": "<p>Frequently more than the marketing site. Docs attract links, answer long-tail technical queries and demonstrate genuine depth. If they are crawlable and structured they compound; if they sit behind JavaScript or a blocked subdomain they contribute nothing.</p>"
+                            },
+                            {
+                                "_id": "27e5820",
+                                "tab_title": "How do you measure SaaS SEO results?",
+                                "tab_content": "<p>Qualified trials and signups from organic, assisted conversions across the longer evaluation path, and share of visibility on the specific comparison and category queries that precede purchase — plus a monthly prompt panel checking how assistants describe the product.</p>"
+                            }
+                        ],
+                        "css_classes": "rk-accordion",
+                        "_css_classes": "rk-accordion",
+                        "selected_icon": {
+                            "value": "fas fa-plus",
+                            "library": "fa-solid"
+                        },
+                        "selected_active_icon": {
+                            "value": "fas fa-minus",
+                            "library": "fa-solid"
+                        }
+                    },
+                    "elements": []
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "50aa4c7",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-cta",
+                "_css_classes": "rk-cta",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "36686d4",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-cta-box",
+                        "_css_classes": "rk-cta-box",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "ea3c210",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Ready to Own Your Category’s Search Results?",
+                                "header_size": "h2",
+                                "css_classes": "rk-cta-title",
+                                "_css_classes": "rk-cta-title"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "45ce7c4",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Let’s find the decision-stage queries you are absent from and build the pages that win them.</p>",
+                                "css_classes": "rk-cta-sub",
+                                "_css_classes": "rk-cta-sub"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "fa2f3e5",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-cta-row rk-center-row",
+                                "_css_classes": "rk-cta-row rk-center-row",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "88a3534",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Book Strategy Call",
+                                        "link": {
+                                            "url": "https://growwithrokibul.com/paid-seo-consultation/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "css_classes": "rk-btn rk-btn-white",
+                                        "_css_classes": "rk-btn rk-btn-white"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "62cd3a0",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Get Free SEO Audit",
+                                        "link": {
+                                            "url": "/free-seo-audit/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "css_classes": "rk-btn rk-btn-outline",
+                                        "_css_classes": "rk-btn rk-btn-outline"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "bk19196e",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-bookcta",
+                "_css_classes": "rk-bookcta",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "bki19196e",
+                    "elType": "container",
+                    "settings": {
+                        "css_classes": "rk-bookcta-inner",
+                        "_css_classes": "rk-bookcta-inner",
+                        "content_width": "full"
+                    },
+                    "elements": [
+                        {
+                            "id": "bke19196e",
+                            "elType": "widget",
+                            "widgetType": "html",
+                            "settings": {
+                                "html": "<div class=\"rk-eyebrow\">Book A Slot</div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bkh19196e",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Book a Consultation With Rokibul Islam Shuvo",
+                                "header_size": "h2",
+                                "css_classes": "rk-h2",
+                                "_css_classes": "rk-h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bkt19196e",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Book a slot with Rokibul Islam Shuvo to review your category coverage, comparison pages and how assistants currently describe your product.</p>",
+                                "css_classes": "rk-body",
+                                "_css_classes": "rk-body"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "bkr19196e",
+                            "elType": "container",
+                            "settings": {
+                                "css_classes": "rk-cta-row rk-center-row",
+                                "_css_classes": "rk-cta-row rk-center-row",
+                                "content_width": "full"
+                            },
+                            "elements": [
+                                {
+                                    "id": "bkb119196e",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Book a Consultation",
+                                        "link": {
+                                            "url": "/paid-seo-consultation/"
+                                        },
+                                        "css_classes": "rk-btn rk-btn-dark",
+                                        "_css_classes": "rk-btn rk-btn-dark"
+                                    },
+                                    "elements": []
+                                },
+                                {
+                                    "id": "bkb219196e",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Get Free SEO Audit",
+                                        "link": {
+                                            "url": "/free-seo-audit/"
+                                        },
+                                        "css_classes": "rk-btn rk-btn-light",
+                                        "_css_classes": "rk-btn rk-btn-light"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "sc19196e",
+            "elType": "container",
+            "settings": {
+                "css_classes": "rk-seo-content",
+                "_css_classes": "rk-seo-content",
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "sci19196e",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<h2>SEO, AEO and GEO Services for SaaS and Technology Companies</h2>\n<p>SaaS buyers do not search the way marketing teams assume. They rarely start with your brand name, and they almost never start with the feature you are proudest of. They start with a problem, then a category, then a shortlist — and by the time your name enters the process, most of the filtering has already happened somewhere you do not control.</p>\n<p>That is why product-led SEO for software is less about publishing volume and more about owning the specific queries that decide a shortlist, then making sure an assistant can summarise your product accurately when asked.</p>\n\n<h3>The queries that actually decide the deal</h3>\n<p>Bottom-of-funnel intent in SaaS lives outside your brand. It looks like <em>best [category] software</em>, <em>[competitor] alternatives</em>, <em>[you] vs [competitor]</em>, <em>[category] for [role or industry]</em>, pricing questions and integration questions.</p>\n<p>Each of those needs its own page with its own angle. A single features page cannot serve six different intents, and trying to make it do so is the most common reason technically strong products stay invisible. Comparison and alternative pages in particular feel uncomfortable to write because they name competitors — which is precisely why they convert and why they get cited.</p>\n\n<h3>Page architecture that scales without turning into sprawl</h3>\n<p>The architecture I build for software companies runs on four families: feature pages covering what the product does, use-case pages covering who it is for, integration pages covering what it connects to, and comparison pages covering why you over the alternatives.</p>\n<p>Each family targets a different stage of the decision, and each adds entities that strengthen the others. Done properly this compounds; done carelessly it becomes hundreds of thin, templated pages that dilute the site. The dividing line is whether each page answers a question a real buyer asked, in language they used.</p>\n\n<figure class=\"rk-prose-fig\"><img src=\"https://growwithrokibul.com/wp-content/uploads/2026/07/ind-saas-page-architecture.svg\" alt=\"SaaS page architecture across feature, use case, integration and comparison pages\" width=\"1200\" height=\"900\" loading=\"lazy\" /><figcaption>Four page families, each owning a different stage of the decision.</figcaption></figure>\n\n<h3>Documentation and changelogs are search assets</h3>\n<p>Most technology companies treat docs as a support cost. In practice, documentation is often the most linked, most cited and most specific content the company owns — developers search error messages, API methods and configuration questions constantly.</p>\n<p>If your docs sit behind JavaScript, on a subdomain nobody links to, or in a tool that blocks crawlers, you are discarding your strongest technical authority signal. Making them crawlable, well-structured and internally linked is usually one of the highest-return technical fixes available, and it sits squarely inside <a href=\"https://growwithrokibul.com/services/technical-seo/\">technical SEO</a>.</p>\n\n<h3>Third-party platforms decide part of your visibility</h3>\n<p>For software, review platforms and roundups occupy a large share of the results your buyers see. G2, Capterra, industry roundups and community threads frequently outrank vendor sites for category queries, and they are heavily used as sources by generative engines because they read as independent consensus.</p>\n<p>You cannot rank a listing you do not own, but you can influence it: keep your category placement and product descriptions accurate, maintain review flow, and make sure the facts on those profiles match your own site exactly. Contradictions between your pricing page and your G2 profile are a trust problem before they are a ranking problem.</p>\n\n<h3>Getting recommended inside AI answers</h3>\n<p>Software evaluation is one of the fastest-moving categories for AI-assisted research. Buyers ask assistants to compare tools, summarise pricing models and recommend options for a stated constraint — team size, budget, compliance requirement, existing stack.</p>\n<p>Being included in those answers depends on the same discipline as <a href=\"https://growwithrokibul.com/services/aeo-geo/\">AEO and GEO</a> anywhere else: state facts explicitly rather than implying them, structure pages so passages can be extracted cleanly, mark up <code>SoftwareApplication</code> and offer data, and ensure independent sources corroborate what you claim. Vague positioning language is invisible to a retrieval system.</p>\n\n<h3>Measuring what matters in SaaS</h3>\n<p>Sessions are a poor proxy for a business that sells subscriptions. I report on qualified signups and trials from organic, assisted conversions across the longer research path, and share of visibility on the specific comparison and category queries that precede a purchase.</p>\n<p>I also run a fixed panel of buying prompts through the major assistants each month and log whether the product is mentioned and how it is described. When a model gets your pricing model or integration list wrong, that is a content gap you can fix — and it is usually costing you deals silently.</p>\n\n<h3>Where I would start</h3>\n<p>Almost always with coverage and structure rather than volume. I map the category, find which decision-stage queries have no page behind them, fix the technical issues blocking crawl and render, then build the missing pages in order of commercial value. <a href=\"https://growwithrokibul.com/services/semantic-seo/\">Semantic SEO</a> holds it together, keeping the whole site legible as one coherent subject rather than a pile of feature copy.</p>\n<p>If you want a clear read on which decision-stage queries you are currently absent from, start with a <a href=\"https://growwithrokibul.com/free-seo-audit/\">free SEO audit</a>.</p>",
+                        "css_classes": "rk-seo-prose",
+                        "_css_classes": "rk-seo-prose"
+                    },
+                    "elements": []
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}
