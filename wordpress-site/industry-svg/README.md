@@ -1,6 +1,6 @@
 # Industry landing page diagrams
 
-Two diagrams per industry page (five pages, ten diagrams), built to the same conventions as
+Two diagrams per industry page (twelve pages, 24 diagrams), built to the same conventions as
 `../blog-svg/`: `1200×900` viewBox, site palette (`#111111` ink, `#fafafa` panel,
 `#e8e8e8` borders, `#888888` secondary) with `#e8a013` as the only accent, system
 sans stack, and a `<g id="rk-watermark">` logo + domain block in the top-right.
@@ -39,6 +39,22 @@ sans stack, and a `<g id="rk-watermark">` logo + domain block in the top-right.
 |---|---|---|
 | `ind-realestate-area-pages.svg` | 744 | Permanent area layer above temporary listings |
 | `ind-realestate-listing-lifecycle.svg` | 745 | What to do with a listing URL once it sells |
+
+## The remaining seven pages
+
+The last seven pages (746–752) were built from four reusable layout templates
+rather than hand-positioned SVG, which is why they are visually consistent and
+free of the overlap problems the earlier hand-built ones had:
+
+| Template | Shape | Used by |
+|---|---|---|
+| `columns` | 3–4 cards, title + sub + ticked list | `ind-prof-buyer-journey`, `ind-legal-trust-signals`, `ind-education-search-intent`, `ind-finance-ymyl-trust`, `ind-manufacturing-buyer-specs`, `ind-home-emergency-intent`, `ind-travel-seasonality` |
+| `flow` | 3–4 numbered steps with arrows in the gaps | `ind-prof-enquiry-path`, `ind-education-enrolment-journey` |
+| `split` | Two panels, green ticks vs. red crosses | `ind-legal-practice-pages`, `ind-finance-content-choices`, `ind-manufacturing-spec-pages` |
+| `stack` | Indented rows, permanent → temporary | `ind-home-service-areas`, `ind-travel-content-hierarchy` |
+
+The templates compute card widths and gaps from the 1040px content width, so
+adding or removing a column cannot reproduce the overlap bug below.
 
 ## Two layout bugs worth remembering
 
