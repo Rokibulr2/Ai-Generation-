@@ -1,0 +1,442 @@
+{
+  "collected_at": "2026-07-21",
+  "server": "novamira-growwithrokibul",
+  "environment": {
+    "wordpress": "7.0.2",
+    "php": "8.1.34",
+    "locale": "en_US",
+    "theme": "Hello Elementor",
+    "plugins": [
+      {"name": "Advanced Custom Fields", "version": "6.8.6", "active": true},
+      {"name": "Akismet Anti-spam: Spam Protection", "version": "5.7", "active": false},
+      {"name": "Elementor", "version": "4.2.0", "active": true},
+      {"name": "Hello Dolly", "version": "1.7.2", "active": false},
+      {"name": "Novamira", "version": "1.9.2", "active": true},
+      {"name": "Ultimate Addons for Elementor (UAE)", "version": "2.9.2", "active": true},
+      {"name": "WPCode Lite", "version": "2.3.7", "active": true}
+    ]
+  },
+  "abilities": [
+    {
+      "name": "novamira/execute-php",
+      "label": "Execute PHP Code",
+      "description": "Executes PHP code on the WordPress server. The full WordPress environment is available including $wpdb, all WordPress functions, and loaded plugins. Returns the return value, any echoed output, and captured warnings/notices.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "code": {"type": "string", "description": "PHP code to execute. Do NOT include <?php tags. Use \"return $value;\" to return data for inspection.", "minLength": 1}
+        },
+        "required": ["code"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/read-file",
+      "label": "Read File",
+      "description": "Reads the contents of a file from the server filesystem. Supports text and binary files. Binary files and files with invalid UTF-8 are returned as base64-encoded. Supports partial reads via offset and limit parameters.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "File path. Relative paths are resolved from the WordPress root (ABSPATH).", "minLength": 1},
+          "offset": {"type": "integer", "description": "Byte offset to start reading from.", "default": 0, "minimum": 0},
+          "limit": {"type": "integer", "description": "Maximum bytes to read. Use -1 for the entire file.", "default": 1048576}
+        },
+        "required": ["path"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/write-file",
+      "label": "Write File",
+      "description": "Writes small UTF-8 text content to a file on the server filesystem. PHP files (*.php) and PHP execution control files can ONLY be written to the sandbox directory (wp-content/novamira-sandbox/). Other non-PHP files can intentionally go anywhere under ABSPATH. Does not accept base64 or binary uploads; use novamira/create-upload-link for those. Automatically creates parent directories when needed.",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "File path. Relative paths are resolved from the WordPress root (ABSPATH).", "minLength": 1},
+          "content": {"type": "string", "description": "Small UTF-8 text content to write to the file."},
+          "encoding": {"type": "string", "enum": ["utf-8"], "default": "utf-8"},
+          "mode": {"type": "string", "enum": ["overwrite", "append"], "default": "overwrite"},
+          "create_directories": {"type": "boolean", "default": true}
+        },
+        "required": ["path", "content"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/edit-file",
+      "label": "Edit File",
+      "description": "Edits an existing file by replacing an exact string match with new content. The old string must be unique in the file unless replace_all is set.",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "File path. Relative paths are resolved from the WordPress root (ABSPATH).", "minLength": 1},
+          "old_string": {"type": "string", "description": "The exact text to find in the file. Must match exactly including whitespace and indentation."},
+          "new_string": {"type": "string", "description": "The text to replace old_string with. Use an empty string to delete the matched text."},
+          "replace_all": {"type": "boolean", "default": false}
+        },
+        "required": ["path", "old_string", "new_string"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/delete-file",
+      "label": "Delete File",
+      "description": "Deletes a file or directory from the server filesystem. Non-empty directories require the recursive flag. Critical WordPress directories (ABSPATH root, wp-admin, wp-includes) are protected. Idempotent.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "Path to the file or directory to delete. Relative paths are resolved from ABSPATH.", "minLength": 1},
+          "recursive": {"type": "boolean", "description": "Required for non-empty directories.", "default": false}
+        },
+        "required": ["path"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/create-upload-link",
+      "label": "Create Upload Link",
+      "description": "Creates a temporary upload endpoint and header-only bearer token that external tools can use to upload one file into the WordPress filesystem. Use for ZIPs, plugins, themes, media, binary files, or large uploads. Accepts raw PUT/POST bodies and multipart/form-data with a field named \"file\".",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "Destination file path. Relative paths are resolved from ABSPATH.", "minLength": 1},
+          "expires_in": {"type": "integer", "default": 900, "minimum": 30, "maximum": 3600},
+          "max_bytes": {"type": "integer", "default": 536870912, "minimum": 1},
+          "overwrite": {"type": "boolean", "default": false},
+          "create_directories": {"type": "boolean", "default": true}
+        },
+        "required": ["path"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/create-admin-access-link",
+      "label": "Create Admin Access Link",
+      "description": "Creates a temporary, one-time WordPress admin access exchange for browser automation tools. POST the returned token and nonce in headers to receive a short-lived one-time login URL.",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "expires_in": {"type": "integer", "default": 300, "minimum": 30, "maximum": 600},
+          "session_expires_in": {"type": "integer", "default": 1800, "minimum": 60, "maximum": 3600},
+          "admin_path": {"type": "string", "description": "Optional wp-admin-relative path to open after login. External URLs are rejected.", "default": ""}
+        },
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/disable-file",
+      "label": "Disable File",
+      "description": "Disables a file in the sandbox (wp-content/novamira-sandbox/) by appending \".disabled\" to its filename. The file is preserved on disk but no longer loaded. Sandbox-only. Idempotent.",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "Path to the sandbox file to disable. Must be inside wp-content/novamira-sandbox/.", "minLength": 1}
+        },
+        "required": ["path"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/enable-file",
+      "label": "Enable File",
+      "description": "Re-enables a previously disabled sandbox file by removing the \".disabled\" suffix. Sandbox-only. Idempotent.",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "Path to the .disabled file to re-enable (with or without the .disabled suffix). Must be inside wp-content/novamira-sandbox/.", "minLength": 1}
+        },
+        "required": ["path"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/list-directory",
+      "label": "List Directory",
+      "description": "Lists files and directories at a given path. Supports glob pattern filtering, recursive listing with configurable depth, and hidden file inclusion.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "Directory path. Defaults to ABSPATH.", "default": ""},
+          "pattern": {"type": "string", "default": "*"},
+          "recursive": {"type": "boolean", "default": false},
+          "max_depth": {"type": "integer", "default": 3, "minimum": 1, "maximum": 10},
+          "include_hidden": {"type": "boolean", "default": false},
+          "limit": {"type": "integer", "default": 500, "minimum": 1, "maximum": 5000}
+        },
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "mcp-adapter/discover-abilities",
+      "label": "Discover Abilities",
+      "description": "Discover all available WordPress abilities in the system. Returns a list of all registered abilities with their basic information, plus Novamira environment instructions.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {"type": "object", "properties": {}}
+    },
+    {
+      "name": "novamira/run-wp-cli",
+      "label": "Run WP-CLI Command",
+      "description": "Runs a WP-CLI command on the server. Can be run synchronously (default) or asynchronously in the background.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "args": {"type": "array", "description": "Arguments to pass to wp (e.g. [\"plugin\", \"list\", \"--format=json\"]).", "items": {"type": "string"}, "minItems": 1},
+          "async": {"type": "boolean", "default": false}
+        },
+        "required": ["args"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/get-wp-cli-job",
+      "label": "Get WP-CLI Job Status",
+      "description": "Checks the status of an asynchronous background WP-CLI job.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "job_id": {"type": "string", "minLength": 1},
+          "offset": {"type": "integer", "default": 0, "minimum": 0},
+          "limit": {"type": "integer", "default": 1048576}
+        },
+        "required": ["job_id"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-get-finalizer-runtime",
+      "label": "Get Block Editor Queue Runtime",
+      "description": "Reports whether the Novamira Block Editor Queue admin page is open and heartbeating, including token-gated SSE and poll URLs that agents can watch with curl.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {"type": "object", "properties": {}, "additionalProperties": false}
+    },
+    {
+      "name": "novamira/gutenberg-get-content",
+      "label": "Get Gutenberg Content",
+      "description": "Reads the live saved Gutenberg post_content for one target and returns a compact parsed block tree, plus Block Editor Queue runtime status and any pending queued change summary.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "target_id": {"type": "integer", "description": "Target post/template ID. Alias: post_id."},
+          "post_id": {"type": "integer", "description": "Alias for target_id."},
+          "target_type": {"type": "string", "description": "Optional target post type/context."},
+          "post_type": {"type": "string", "description": "Alias for target_type."},
+          "max_depth": {"type": "integer", "default": 4},
+          "include_attributes": {"type": "boolean", "default": true},
+          "include_raw_content": {"type": "boolean", "default": false}
+        },
+        "anyOf": [{"required": ["target_id"]}, {"required": ["post_id"]}],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-write-content",
+      "label": "Write Gutenberg Content",
+      "description": "Directly writes Gutenberg post_content only when every supplied block is a registered Novamira-owned dynamic-only block. Native/static blocks must be queued via gutenberg-add-pending-change instead.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "target_id": {"type": "integer"},
+          "post_id": {"type": "integer"},
+          "target_type": {"type": "string"},
+          "post_type": {"type": "string"},
+          "block_spec": {"type": "array", "description": "Top-level Gutenberg block specs: [{name, attributes, innerBlocks}]. Only registered novamira/* dynamic-only blocks accepted.", "items": {"type": "object", "additionalProperties": true}}
+        },
+        "required": ["block_spec"],
+        "anyOf": [{"required": ["target_id"]}, {"required": ["post_id"]}],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-create-pending-batch",
+      "label": "Create Gutenberg Pending Batch",
+      "description": "Creates an empty draft Gutenberg pending batch. Optional convenience; gutenberg-add-pending-change auto-creates a batch when batch_id is omitted.",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "label": {"type": "string"},
+          "agent_label": {"type": "string"},
+          "agent_session_id": {"type": "string"},
+          "agent_note": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-add-pending-change",
+      "label": "Add Gutenberg Pending Change",
+      "description": "Adds one replace-content target change to a draft Gutenberg pending batch, or auto-creates a draft batch when batch_id is omitted. Static/native blocks are finalized in a hidden editor iframe. Not live until the batch is finalized.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "batch_id": {"type": "integer"},
+          "label": {"type": "string"},
+          "agent_label": {"type": "string"},
+          "agent_session_id": {"type": "string"},
+          "agent_note": {"type": "string"},
+          "target_id": {"type": "integer"},
+          "post_id": {"type": "integer"},
+          "target_type": {"type": "string"},
+          "post_type": {"type": "string"},
+          "operation": {"type": "string", "enum": ["replace-content"], "default": "replace-content"},
+          "block_spec": {"type": "array", "items": {"type": "object", "additionalProperties": true}},
+          "allow_raw_html": {"type": "boolean", "default": false}
+        },
+        "required": ["block_spec"],
+        "anyOf": [{"required": ["target_id"]}, {"required": ["post_id"]}],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-enable-batch-finalization",
+      "label": "Enable Gutenberg Batch Finalization",
+      "description": "Marks a draft Gutenberg pending batch ready after all target changes are queued. An open Block Editor Queue page can pick it up automatically; changes are not live until the batch reports finalized.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {"batch_id": {"type": "integer"}},
+        "required": ["batch_id"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-get-pending-batch",
+      "label": "Get Gutenberg Pending Batch",
+      "description": "Returns compact status, target summaries, validation errors, Block Editor Queue runtime status, and curl SSE/poll URLs for one pending batch.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {"batch_id": {"type": "integer"}},
+        "required": ["batch_id"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-list-pending-batches",
+      "label": "List Gutenberg Pending Batches",
+      "description": "Lists compact queue state grouped by Gutenberg batch for agent recovery, plus the current Block Editor Queue runtime status. Full block specs are not returned.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "status": {"type": "string", "enum": ["draft", "ready", "running", "finalized", "failed", "conflicted", "canceled", "stale"]},
+          "limit": {"type": "integer", "default": 20}
+        },
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-delete-pending-batch",
+      "label": "Delete Gutenberg Pending Batch",
+      "description": "Cancels a draft, ready, running, prepared, failed, or conflicted Gutenberg pending batch and its non-finalized items without touching target content.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {"batch_id": {"type": "integer"}},
+        "required": ["batch_id"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-delete-pending-change",
+      "label": "Delete Gutenberg Pending Change",
+      "description": "Cancels one Gutenberg pending item without touching target content.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {"item_id": {"type": "integer"}},
+        "required": ["item_id"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/gutenberg-get-finalization-url",
+      "label": "Get Gutenberg Finalization URL",
+      "description": "Returns the generic Block Editor Queue admin page URL for one ready or failed Gutenberg batch, plus the current finalizer runtime status and curl SSE/poll URLs.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {"batch_id": {"type": "integer"}},
+        "required": ["batch_id"],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "novamira/skill-get",
+      "label": "Get Skill",
+      "description": "Load a Novamira skill by slug. Returns the full SKILL.md content plus metadata.",
+      "annotations": {"readonly": true, "destructive": false, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {"slug": {"type": "string"}},
+        "required": ["slug"]
+      }
+    },
+    {
+      "name": "novamira/skill-write",
+      "label": "Write Skill",
+      "description": "Create or update a Novamira user skill. The title is the only identifier — sanitised server-side into the slug.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "content": {"type": "string"},
+          "enable_prompt": {"type": "boolean"},
+          "enable_agentic": {"type": "boolean"},
+          "on_conflict": {"type": "string", "enum": ["fail", "replace", "rename"]}
+        },
+        "required": ["title", "description", "content"]
+      }
+    },
+    {
+      "name": "novamira/skill-edit",
+      "label": "Edit Skill",
+      "description": "Update one or more fields on an existing user skill. Only the fields you pass are touched.",
+      "annotations": {"readonly": false, "destructive": false, "idempotent": false},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "slug": {"type": "string"},
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "content": {"type": "string"},
+          "enable_prompt": {"type": "boolean"},
+          "enable_agentic": {"type": "boolean"},
+          "enabled": {"type": "boolean"}
+        },
+        "required": ["slug"]
+      }
+    },
+    {
+      "name": "novamira/skill-delete",
+      "label": "Delete Skill",
+      "description": "Move a Novamira user skill to trash. Pass permanent=true to skip trash and delete immediately.",
+      "annotations": {"readonly": false, "destructive": true, "idempotent": true},
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "slug": {"type": "string"},
+          "permanent": {"type": "boolean"}
+        },
+        "required": ["slug"]
+      }
+    }
+  ]
+}
