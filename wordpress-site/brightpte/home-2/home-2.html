@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Bright Academy — PTE Coaching in Bangladesh (Home 2 preview)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Hind+Siliguri:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ex-font:'Geist','Hind Siliguri','Inter',system-ui,-apple-system,sans-serif;
+  --forest:#003B2D; --green:#0D883C; --mint:#E8F5EC; --mint-2:#F3FAF5; --ink:#0A0915; --slate:#36403D;
+  --line:#DCE9E0; --white:#fff;
+  --fs-display:64px; --fs-h2:46px; --fs-stat:40px; --fs-h4:28px; --fs-h5:24px;
+  --fs-lead:20px; --fs-body-lg:18px; --fs-body:16px; --fs-small:14px;
+  --r-card:24px; --r-sm:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;font:400 16px/1.6 var(--ex-font);letter-spacing:-0.02em;color:var(--slate);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4,h5{font-family:var(--ex-font);font-weight:500;color:var(--forest);margin:0}
+h1{font-size:clamp(38px,6vw,var(--fs-display));line-height:1.08;letter-spacing:-0.06em}
+h2{font-size:clamp(30px,4.2vw,var(--fs-h2));line-height:1.2;letter-spacing:-0.04em}
+h3{font-size:var(--fs-stat);line-height:1.3}
+h4{font-size:clamp(22px,2.4vw,var(--fs-h4));line-height:1.3;letter-spacing:-0.04em;color:var(--ink)}
+h5{font-size:clamp(20px,2vw,var(--fs-h5));line-height:1.4;letter-spacing:-0.03em}
+p{margin:0}
+.hl{color:var(--green)}
+.lead{font-size:clamp(17px,1.7vw,var(--fs-lead));line-height:1.6;letter-spacing:-0.02em}
+.body-lg{font-size:clamp(16px,1.5vw,var(--fs-body-lg))}
+.small{font-size:var(--fs-small);line-height:1.4;letter-spacing:-0.01em}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+section{padding:112px 0}
+.pill{display:inline-flex;align-items:center;gap:8px;background:var(--mint);color:var(--forest);font-size:14px;font-weight:500;letter-spacing:-0.01em;padding:6px 14px;border-radius:999px}
+.pill:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--green)}
+.sec-head{max-width:600px}
+.sec-head h2{margin-top:16px}
+.sec-head .body-lg{margin-top:16px;max-width:520px}
+.sec-head.center{margin:0 auto;text-align:center}
+.sec-head.center .body-lg{margin-left:auto;margin-right:auto}
+.btn{display:inline-flex;align-items:center;gap:10px;font-size:16px;font-weight:500;line-height:1.8;letter-spacing:-0.01em;padding:12px 26px;border-radius:999px;transition:transform .2s,background .2s,color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--forest);color:#fff}
+.btn-primary:hover{background:var(--green)}
+.btn-ghost{background:#fff;color:var(--forest);box-shadow:inset 0 0 0 1px var(--line)}
+.btn-ghost:hover{box-shadow:inset 0 0 0 1px var(--forest)}
+.btn-light{background:#fff;color:var(--forest)}
+.btn .arr{width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;font-size:14px}
+.btn-ghost .arr,.btn-light .arr{background:var(--mint)}
+.ticks{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.ticks li{display:flex;gap:10px;align-items:flex-start}
+.ticks li:before{content:"";flex:0 0 20px;height:20px;margin-top:3px;border-radius:50%;background:var(--mint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M6 10.5l2.6 2.5L14 7.5' fill='none' stroke='%230D883C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/20px no-repeat}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid rgba(0,59,45,.06)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:500;color:var(--forest);font-size:18px;letter-spacing:-0.03em}
+.brand img{width:40px;height:40px;object-fit:contain}
+.nav-links{display:flex;gap:28px;font-size:15px;color:var(--ink)}
+.nav-links a:hover{color:var(--green)}
+.nav .btn{padding:8px 20px}
+.preview-flag{background:var(--ink);color:#fff;text-align:center;font-size:13px;padding:6px 12px;letter-spacing:0}
+
+/* hero */
+.hero{padding:72px 0 96px;background:linear-gradient(180deg,var(--mint-2),#fff 70%)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.hero h1{margin-top:20px;max-width:620px}
+.hero .body-lg{margin-top:20px;max-width:520px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.trust{display:flex;align-items:center;gap:14px;margin-top:36px}
+.trust .faces{display:flex}
+.trust .faces span{width:38px;height:38px;border-radius:50%;border:2px solid #fff;margin-left:-10px;display:grid;place-items:center;font-size:13px;font-weight:500;color:#fff}
+.trust .faces span:first-child{margin-left:0}
+.trust strong{font-weight:700;color:var(--ink)}
+.hero-media{position:relative}
+.hero-photo{border-radius:32px;overflow:hidden;aspect-ratio:4/4.6;background:var(--mint)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:top}
+.float{position:absolute;background:#fff;border-radius:20px;padding:16px 20px;box-shadow:0 18px 40px rgba(0,59,45,.12)}
+.float.f1{left:-36px;bottom:56px;display:flex;align-items:center;gap:14px}
+.float.f1 b{font-size:40px;font-weight:500;letter-spacing:-0.045em;color:var(--ink);line-height:1}
+.float.f2{right:-20px;top:36px;background:var(--forest);color:#fff}
+.float.f2 b{display:block;font-size:24px;font-weight:500;letter-spacing:-0.03em}
+.float.f2 span{color:rgba(255,255,255,.6);font-size:14px}
+
+/* stats */
+.stats{padding:0 0 32px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{border:1px solid var(--line);border-radius:var(--r-card);padding:28px}
+.stat b{display:block;font-size:clamp(40px,5vw,64px);font-weight:500;line-height:1.2;letter-spacing:-0.045em;color:var(--ink)}
+.stat p{margin-top:4px}
+.stat.green{background:var(--green);border-color:var(--green)}
+.stat.green b{color:#fff}
+.stat.green p{color:rgba(255,255,255,.75)}
+
+/* courses */
+.courses-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px}
+.course{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden;background:#fff;transition:box-shadow .25s,transform .25s}
+.course:hover{transform:translateY(-4px);box-shadow:0 22px 48px rgba(0,59,45,.1)}
+.course-img{aspect-ratio:16/10;overflow:hidden;background:var(--mint)}
+.course-img img{width:100%;height:100%;object-fit:cover}
+.course-body{padding:28px;display:flex;flex-direction:column;gap:12px;flex:1}
+.course .tag{align-self:flex-start;font-size:14px;font-weight:500;color:var(--green);background:var(--mint);padding:4px 12px;border-radius:999px}
+.course .ticks{margin-top:8px;font-size:15px}
+.course .more{margin-top:auto;padding-top:16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);font-weight:500;color:var(--forest)}
+.course .more i{font-style:normal;width:36px;height:36px;border-radius:50%;background:var(--forest);color:#fff;display:grid;place-items:center;transition:background .2s}
+.course:hover .more i{background:var(--green)}
+.center-cta{text-align:center;margin-top:40px}
+
+/* why */
+.why{background:var(--mint-2)}
+.why-top{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px}
+.why-card{background:#fff;border-radius:var(--r-card);padding:32px;display:flex;flex-direction:column;gap:10px}
+.why-card .ic{width:52px;height:52px;border-radius:16px;background:var(--mint);display:grid;place-items:center;margin-bottom:12px}
+.why-card .ic svg{width:24px;height:24px;stroke:var(--green);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.why-card.feature{background:var(--forest)}
+.why-card.feature h5{color:#fff}
+.why-card.feature p{color:rgba(255,255,255,.7)}
+.why-card.feature .ic{background:rgba(255,255,255,.1)}
+.why-card.feature .ic svg{stroke:#fff}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px;counter-reset:s}
+.step{border:1px solid var(--line);border-radius:var(--r-card);padding:32px;position:relative}
+.step .n{font-size:14px;font-weight:500;color:var(--green);background:var(--mint);border-radius:999px;padding:4px 12px;display:inline-block}
+.step h5{margin:20px 0 8px;color:var(--ink)}
+
+/* trainer */
+.trainer .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:72px;align-items:center}
+.trainer-photo{border-radius:32px;overflow:hidden;aspect-ratio:4/5;background:var(--mint);position:relative}
+.trainer-photo img{width:100%;height:100%;object-fit:cover;object-position:top}
+.trainer-photo .badge{position:absolute;left:20px;right:20px;bottom:20px;background:rgba(0,59,45,.92);color:#fff;border-radius:18px;padding:16px 20px;display:flex;justify-content:space-between;gap:12px}
+.trainer-photo .badge b{font-size:24px;font-weight:500;letter-spacing:-0.03em}
+.trainer-photo .badge span{color:rgba(255,255,255,.6);font-size:14px;display:block}
+.role{margin-top:12px;color:var(--green);font-weight:500}
+.trainer .lead{margin-top:20px;color:var(--forest);font-weight:500}
+.trainer .body{margin-top:14px}
+.trainer .ticks{grid-template-columns:1fr 1fr;margin-top:28px;gap:12px 20px}
+.trainer .hero-ctas{margin-top:36px}
+
+/* goals */
+.goals{background:var(--forest)}
+.goals h2{color:#fff}
+.goals .pill{background:rgba(255,255,255,.1);color:#fff}
+.goals .body-lg{color:rgba(255,255,255,.7)}
+.goals-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:56px}
+.goal-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-card);padding:36px}
+.goal-card h5{color:#fff;margin-bottom:20px}
+.goal-card .ticks li{color:rgba(255,255,255,.82)}
+.goal-card .ticks li:before{background-color:rgba(255,255,255,.12);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M6 10.5l2.6 2.5L14 7.5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:8px 16px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff;font-size:15px}
+.goal-card .note{margin-top:24px;color:rgba(255,255,255,.6);font-size:15px}
+.goals .center-cta{margin-top:48px}
+
+/* testimonials */
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px}
+.tcard{border:1px solid var(--line);border-radius:var(--r-card);padding:32px;display:flex;flex-direction:column;gap:20px}
+.rating{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--ink)}
+.rating span{color:#F5A524;letter-spacing:2px}
+.tcard blockquote{margin:0;color:var(--ink);font-size:17px;line-height:1.65}
+.who{margin-top:auto;display:flex;align-items:center;gap:12px;padding-top:20px;border-top:1px solid var(--line)}
+.who .av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--mint);color:var(--forest);font-weight:500}
+.who h6{margin:0;font-size:16px;font-weight:500;color:var(--ink)}
+.who .score{margin-left:auto;font-size:14px;font-weight:500;color:var(--green);background:var(--mint);padding:4px 12px;border-radius:999px}
+
+/* ebook */
+.ebook-card{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;background:var(--mint-2);border-radius:32px;padding:56px}
+.ebook-card img{border-radius:20px;box-shadow:0 24px 50px rgba(0,59,45,.14)}
+.ebook-card h2{margin-top:16px}
+.ebook-card .ticks{grid-template-columns:1fr 1fr;gap:10px 18px;margin-top:24px;font-size:15px}
+.meta-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.meta-row span{background:#fff;border-radius:999px;padding:6px 14px;font-size:14px;color:var(--forest)}
+.meta-row span.save{background:var(--green);color:#fff}
+
+/* faq */
+.faq .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}
+.faq .sec-head{position:sticky;top:110px}
+.faq-list{display:grid;gap:12px}
+.faq details{border:1px solid var(--line);border-radius:var(--r-sm);padding:22px 26px;transition:background .2s}
+.faq details[open]{background:var(--mint-2);border-color:transparent}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;font-size:18px;font-weight:500;color:var(--ink);letter-spacing:-0.02em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";flex:0 0 30px;height:30px;border-radius:50%;background:var(--mint);color:var(--forest);display:grid;place-items:center;font-size:20px;line-height:1;transition:transform .25s}
+.faq details[open] summary:after{transform:rotate(45deg);background:var(--forest);color:#fff}
+.faq details p{margin-top:12px}
+
+/* mock CTA */
+.mock{padding:0 0 112px}
+.mock-card{background:var(--forest);border-radius:32px;padding:64px;display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center;position:relative;overflow:hidden}
+.mock-card:after{content:"";position:absolute;right:-120px;top:-120px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(13,136,60,.55),transparent 70%)}
+.mock-card h2{color:#fff;margin-top:16px}
+.mock-card .pill{background:rgba(255,255,255,.1);color:#fff}
+.mock-card .body-lg{color:rgba(255,255,255,.7);margin-top:16px;max-width:520px}
+.mock-card .ticks{margin-top:24px;grid-template-columns:1fr 1fr;color:rgba(255,255,255,.85)}
+.mock-card .ticks li:before{background-color:rgba(255,255,255,.12);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M6 10.5l2.6 2.5L14 7.5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.mock-box{background:#fff;border-radius:24px;padding:32px;position:relative;z-index:1}
+.mock-box .price{font-size:40px;font-weight:500;letter-spacing:-0.045em;color:var(--ink);line-height:1.2}
+.mock-box .price small{font-size:16px;color:var(--slate);letter-spacing:-0.02em}
+.mock-box dl{margin:20px 0 24px;display:grid;gap:10px}
+.mock-box dl div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:10px;font-size:15px}
+.mock-box dt{color:var(--slate)}
+.mock-box dd{margin:0;color:var(--ink);font-weight:500;text-align:right}
+.mock-box .btn{width:100%;justify-content:center}
+.mock-box .small{margin-top:12px;text-align:center}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:40px 0}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer nav{display:flex;gap:24px;flex-wrap:wrap}
+footer a:hover{color:var(--green)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+
+/* responsive */
+@media (max-width:1199px){
+  :root{--fs-display:56px;--fs-h2:40px;--fs-h4:24px;--fs-h5:22px;--fs-lead:18px}
+  .nav-links{gap:18px}
+  .float.f1{left:-12px}.float.f2{right:-8px}
+}
+@media (max-width:1023px){
+  .nav-links{display:none}
+  .hero .wrap,.trainer .wrap,.faq .wrap,.ebook-card,.mock-card{grid-template-columns:1fr}
+  .hero-media{max-width:480px}
+  .courses-grid,.why-grid,.steps,.tgrid{grid-template-columns:1fr 1fr}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .faq .sec-head{position:static}
+}
+@media (max-width:809px){
+  section{padding:72px 0}
+  .wrap{padding:0 16px}
+  .hero{padding:40px 0 64px}
+  .courses-grid,.why-grid,.steps,.tgrid,.goals-grid{grid-template-columns:1fr}
+  .trainer .ticks,.ebook-card .ticks,.mock-card .ticks{grid-template-columns:1fr}
+  .ebook-card,.mock-card{padding:28px 20px;border-radius:24px}
+  .float.f1{left:12px;bottom:16px}.float.f2{right:12px;top:16px}
+  .float.f1 b{font-size:32px}
+  .stat{padding:20px}
+  .mock{padding-bottom:72px}
+  .goal-card,.why-card,.step,.tcard{padding:24px}
+  .btn{width:100%;justify-content:center}
+  .nav .btn{width:auto}
+}
+</style>
+</head>
+<body>
+<div class="preview-flag">Preview: Home 2 redesign (draft, only visible to logged-in admins)</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="https://brightpte.com/"><img src="https://brightpte.com/wp-content/uploads/2026/07/bright_acamdey_logo-removebg-preview-150x150.png" alt="Bright Academy logo">Bright Academy</a>
+    <nav class="nav-links">
+      <a href="https://brightpte.com/courses/">Courses</a>
+      <a href="https://brightpte.com/study-abroad/">Study Abroad</a>
+      <a href="https://brightpte.com/mock-test/">1:1 Mock</a>
+      <a href="https://brightpte.com/resources/">Resources</a>
+      <a href="https://brightpte.com/blog/">Blog</a>
+      <a href="https://brightpte.com/about/">About</a>
+    </nav>
+    <a class="btn btn-primary" href="https://brightpte.com/courses/">Enroll Now</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="rv">
+      <span class="pill">বাংলাদেশের বিশ্বস্ত PTE Academy</span>
+      <h1>PTE Academic-এ আপনার <span class="hl">কাঙ্ক্ষিত Score</span> অর্জন করুন</h1>
+      <p class="body-lg">Live Online Class, প্রতি সপ্তাহে Mock Test আর C1 Certified Trainer-এর Personal Feedback। Beginner থেকে Exam Ready পর্যন্ত পরিকল্পিত PTE প্রস্তুতি।</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://brightpte.com/courses/">Explore Courses <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="https://brightpte.com/contact/">Free Counselling <span class="arr">→</span></a>
+      </div>
+      <div class="trust">
+        <div class="faces"><span style="background:#0D883C">N</span><span style="background:#003B2D">S</span><span style="background:#36403D">P</span><span style="background:#0D883C">+</span></div>
+        <p class="small"><strong>4.9/5</strong> rating · ২০০০+ শিক্ষার্থী প্রশিক্ষিত</p>
+      </div>
+    </div>
+    <div class="hero-media rv">
+      <div class="hero-photo"><img src="https://brightpte.com/wp-content/uploads/2026/07/dr-sunny.jpg" alt="Dr. Syed Sunny-Uz-Zaman, Certified PTE Trainer"></div>
+      <div class="float f1"><b>95%</b><p class="small">সফলতার হার*<br>আমাদের শিক্ষার্থীদের</p></div>
+      <div class="float f2"><b>C1 Trainer</b><span>Dr. Syed Sunny-Uz-Zaman</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="wrap stats-grid">
+    <div class="stat rv"><b>2000+</b><p>শিক্ষার্থী প্রশিক্ষিত</p></div>
+    <div class="stat green rv"><b>95%</b><p>সফলতার হার*</p></div>
+    <div class="stat rv"><b>4.9</b><p>Student Rating</p></div>
+    <div class="stat rv"><b>C1</b><p>Certified PTE Trainer</p></div>
+  </div>
+</div>
+
+<!-- COURSES -->
+<section id="courses">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="pill">আমাদের PTE Course</span>
+      <h2>আপনার লক্ষ্য অনুযায়ী <span class="hl">সঠিক Course</span></h2>
+      <p class="body-lg">কেউ একদম শুরু থেকে, কেউ 65+ বা 79+ Target নিয়ে, আবার কেউ Exam-এর ঠিক আগে। আপনার Level অনুযায়ী Course বেছে নিন।</p>
+    </div>
+    <div class="courses-grid">
+      <a class="course rv" href="https://brightpte.com/courses/complete-pte-course/">
+        <div class="course-img"><img src="https://brightpte.com/wp-content/uploads/2026/07/complete-pte-65-768x512.jpg" alt="Complete PTE Course"></div>
+        <div class="course-body">
+          <span class="tag">65+ / 79+ Target</span>
+          <h4>Complete PTE Course</h4>
+          <p>Speaking, Writing, Reading ও Listening, চারটি Module-এর পূর্ণাঙ্গ Live প্রস্তুতি। Admission, Study Abroad বা Migration-এর জন্য।</p>
+          <ul class="ticks">
+            <li>Task-by-task Exam Strategy</li>
+            <li>প্রতি সপ্তাহে PTE Mock Test</li>
+            <li>Speaking ও Writing-এ Personal Feedback</li>
+            <li>Templates, Materials ও Class Recording</li>
+          </ul>
+          <span class="more">Explore Course <i>→</i></span>
+        </div>
+      </a>
+      <a class="course rv" href="https://brightpte.com/courses/foundation-pte/">
+        <div class="course-img"><img src="https://brightpte.com/wp-content/uploads/2026/07/complete-pte-65-1024x683.jpg" alt="Foundation PTE Course"></div>
+        <div class="course-body">
+          <span class="tag">English দুর্বল? সমস্যা নেই</span>
+          <h4>Foundation PTE Course</h4>
+          <p>Grammar, Vocabulary, Pronunciation আর Speaking-এর ভিত্তি তৈরি করে ধাপে ধাপে PTE-এর জন্য প্রস্তুত করা হয়।</p>
+          <ul class="ticks">
+            <li>Essential Grammar ও Vocabulary</li>
+            <li>Speaking ও Pronunciation Practice</li>
+            <li>Sentence Formation ও নিয়মিত Practice</li>
+            <li>Complete Course-এর জন্য প্রস্তুতি</li>
+          </ul>
+          <span class="more">Explore Course <i>→</i></span>
+        </div>
+      </a>
+      <a class="course rv" href="https://brightpte.com/courses/crash-course/">
+        <div class="course-img"><img src="https://brightpte.com/wp-content/uploads/2026/07/crash-2week-768x512.jpg" alt="PTE Crash Course"></div>
+        <div class="course-body">
+          <span class="tag">Exam খুব কাছে?</span>
+          <h4>PTE Crash Course</h4>
+          <p>Exam-এর তারিখ কাছে, বা আগে প্রত্যাশিত Score আসেনি? দুর্বল জায়গা চিহ্নিত করে দ্রুত Score Improve করুন।</p>
+          <ul class="ticks">
+            <li>Intensive Live Sessions</li>
+            <li>Diagnostic Mock Test</li>
+            <li>গুরুত্বপূর্ণ Question Types-এর Practice</li>
+            <li>Exam Day Tips ও Individual Feedback</li>
+          </ul>
+          <span class="more">Explore Course <i>→</i></span>
+        </div>
+      </a>
+    </div>
+    <div class="center-cta rv"><a class="btn btn-ghost" href="https://brightpte.com/courses/">View All Courses <span class="arr">→</span></a></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <div class="wrap">
+    <div class="why-top rv">
+      <div class="sec-head">
+        <span class="pill">কেন Bright Academy?</span>
+        <h2>শুধু ক্লাস নয়, <span class="hl">Score Improvement</span>-এ ফোকাস</h2>
+      </div>
+      <p class="body-lg" style="max-width:480px">আপনার Practice, Mock Test Performance আর Weak Areas-এর ওপর আমরা নিয়মিত নজর রাখি, যাতে Target Score-এর দিকে প্রতিটি সপ্তাহ কাজে লাগে।</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card feature rv">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg></div>
+        <h5>Certified PTE Trainer</h5>
+        <p>C1-Level Certified Trainer-এর সরাসরি গাইডেন্সে প্রতিটি Task, Strategy আর Common Mistake শিখুন।</p>
+      </div>
+      <div class="why-card rv">
+        <div class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3 2.8-4.6 5.5-4.6s4.9 1.6 5.5 4.6"/><circle cx="17" cy="9" r="2.4"/><path d="M16 14.6c2.3.1 4 1.5 4.5 4.4"/></svg></div>
+        <h5>ছোট Batch</h5>
+        <p>প্রত্যেক শিক্ষার্থীর প্রশ্ন, Practice আর সমস্যার দিকে বেশি মনোযোগ দেওয়া যায়।</p>
+      </div>
+      <div class="why-card rv">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v4.5h-4.5"/></svg></div>
+        <h5>Updated PTE Materials</h5>
+        <p>বর্তমান পরীক্ষার ধরন অনুযায়ী Materials, Practice Questions ও Resources নিয়মিত Update করা হয়।</p>
+      </div>
+      <div class="why-card rv">
+        <div class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg></div>
+        <h5>নিয়মিত Mock Test</h5>
+        <p>বাস্তব পরীক্ষার মতো পরিবেশে Mock দিয়ে নিজের Performance যাচাই করুন।</p>
+      </div>
+      <div class="why-card rv">
+        <div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="14" rx="3"/><path d="M16 10l5-3v10l-5-3"/></svg></div>
+        <h5>Live Class + Recording</h5>
+        <p>সব ক্লাস Live Online। মিস হলে Recording দেখে আবার Revision করুন।</p>
+      </div>
+      <div class="why-card rv">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg></div>
+        <h5>Personal Feedback</h5>
+        <p>Speaking, Writing ও Mock Test-এ কোথায় সমস্যা আর কীভাবে উন্নতি করবেন, তার Individual Feedback।</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="pill">আমাদের PTE Training System</span>
+      <h2>৬ ধাপের <span class="hl">Learning Process</span></h2>
+      <p class="body-lg">বেশি Practice নয়, সঠিক Practice। কোথায় সমস্যা হচ্ছে তা বুঝে পরিকল্পিতভাবে উন্নতি।</p>
+    </div>
+    <div class="steps">
+      <div class="step rv"><span class="n">Step 01</span><h5>Diagnostic Assessment</h5><p>শুরুতেই আপনার বর্তমান English ও PTE Level যাচাই।</p></div>
+      <div class="step rv"><span class="n">Step 02</span><h5>Personal Study Plan</h5><p>Target Score আর বর্তমান Level অনুযায়ী বাস্তবসম্মত Plan।</p></div>
+      <div class="step rv"><span class="n">Step 03</span><h5>Live Strategy Class</h5><p>প্রতিটি Question Type-এর Approach হাতে কলমে শেখানো।</p></div>
+      <div class="step rv"><span class="n">Step 04</span><h5>Daily Practice</h5><p>Homework, Practice Questions, Templates আর Materials।</p></div>
+      <div class="step rv"><span class="n">Step 05</span><h5>Weekly Mock Test</h5><p>প্রতি সপ্তাহে Mock দিয়ে প্রস্তুতি ও Performance যাচাই।</p></div>
+      <div class="step rv"><span class="n">Step 06</span><h5>Feedback &amp; Improvement</h5><p>দুর্বল জায়গা বিশ্লেষণ করে পরের সপ্তাহের Improvement Plan।</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINER -->
+<section class="trainer why">
+  <div class="wrap">
+    <div class="trainer-photo rv">
+      <img src="https://brightpte.com/wp-content/uploads/2026/07/dr-sunny.jpg" alt="Dr. Syed Sunny-Uz-Zaman">
+      <div class="badge"><div><b>C1</b><span>PTE Scorer</span></div><div><b>2000+</b><span>Students Trained</span></div></div>
+    </div>
+    <div class="rv">
+      <span class="pill">আপনার PTE Trainer</span>
+      <h2 style="margin-top:16px">Dr. Syed Sunny-Uz-Zaman</h2>
+      <p class="role">Medical Doctor · Certified PTE Trainer · C1 PTE Scorer</p>
+      <p class="lead">নতুন Format-এ নিজে C1 Score অর্জনের অভিজ্ঞতা থেকে তৈরি একটি Practical PTE Training System।</p>
+      <p class="body">শুধু প্রশ্ন শেখানো নয়। প্রতিটি Task কীভাবে বুঝবেন, কীভাবে Practice করবেন আর পরীক্ষার হলে কীভাবে Performance ধরে রাখবেন, সেটাই এখানে শেখানো হয়।</p>
+      <ul class="ticks">
+        <li>সহজ বাংলায় PTE Strategy</li>
+        <li>Practical Exam Techniques</li>
+        <li>Real Exam Experience থেকে শেখানো</li>
+        <li>Speaking ও Writing Feedback</li>
+        <li>Mock Test Performance Analysis</li>
+        <li>নিয়মিত Progress Monitoring</li>
+      </ul>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://brightpte.com/courses/">Learn With Dr. Sunny <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="https://brightpte.com/contact/">Book Free Counselling</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GOALS + SCORE + STUDY ABROAD -->
+<section class="goals">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="pill">কার জন্য Bright Academy?</span>
+      <h2>Admission, Migration বা <span style="color:#7BD39A">Score Improvement</span></h2>
+      <p class="body-lg">লক্ষ্য যাই হোক, প্রস্তুতি সাজানো হয় সেই অনুযায়ী। PTE-এর পরের ধাপেও আমরা পাশে থাকি।</p>
+    </div>
+    <div class="goals-grid">
+      <div class="goal-card rv">
+        <h5>আপনার লক্ষ্য যদি হয়</h5>
+        <ul class="ticks">
+          <li>Australia, Canada বা UK-তে উচ্চশিক্ষা</li>
+          <li>Migration বা Visa Requirement পূরণ</li>
+          <li>IELTS-এর বদলে Computer-Based PTE</li>
+          <li>আগে PTE দিয়ে কাঙ্ক্ষিত Score পাননি</li>
+          <li>PTE 65+ বা 79+ Target</li>
+        </ul>
+      </div>
+      <div class="goal-card rv">
+        <h5>কত PTE Score প্রয়োজন?</h5>
+        <div class="chips">
+          <a class="chip" href="https://brightpte.com/study-abroad/australia/">Australia</a>
+          <a class="chip" href="https://brightpte.com/study-abroad/canada/">Canada</a>
+          <a class="chip" href="https://brightpte.com/study-abroad/united-kingdom/">United Kingdom</a>
+          <a class="chip" href="https://brightpte.com/study-abroad/new-zealand/">New Zealand</a>
+          <a class="chip" href="https://brightpte.com/study-abroad/ireland/">Ireland</a>
+          <a class="chip" href="https://brightpte.com/study-abroad/germany/">Germany</a>
+        </div>
+        <p class="note">University, Course, Country আর Visa Category অনুযায়ী Requirement আলাদা। PTE-এর পাশাপাশি Study Abroad Counselling, University Application, Test Booking, Interview ও Visa Preparation-এও গাইডলাইন দেওয়া হয়।</p>
+      </div>
+    </div>
+    <div class="center-cta rv"><a class="btn btn-light" href="https://brightpte.com/contact/">Get Free Counselling <span class="arr">→</span></a></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="pill">শিক্ষার্থীদের অভিজ্ঞতা</span>
+      <h2>আমাদের শিক্ষার্থীরা <span class="hl">কী বলছেন</span></h2>
+    </div>
+    <div class="tgrid">
+      <div class="tcard rv">
+        <div class="rating"><span>★★★★★</span>5.0</div>
+        <blockquote>“Speaking নিয়ে অনেক সমস্যায় ছিলাম। নিয়মিত Mock Test আর Personal Feedback দুর্বল জায়গাগুলো বুঝতে সাহায্য করেছে। প্রথমবারেই 79 পেয়েছি।”</blockquote>
+        <div class="who"><span class="av">N</span><div><h6>Nadia Rahman</h6><p class="small">Australia</p></div><span class="score">PTE 79</span></div>
+      </div>
+      <div class="tcard rv">
+        <div class="rating"><span>★★★★★</span>5.0</div>
+        <blockquote>“আগে কয়েকটি PTE Platform ব্যবহার করেছি। Bright Academy-এর Live Practice আর Individual Feedback সবচেয়ে বেশি কাজে লেগেছে।”</blockquote>
+        <div class="who"><span class="av">S</span><div><h6>Sakib Hossain</h6><p class="small">Canada</p></div><span class="score">PTE 85</span></div>
+      </div>
+      <div class="tcard rv">
+        <div class="rating"><span>★★★★★</span>5.0</div>
+        <blockquote>“ছোট Batch হওয়ায় Trainer আমার ভুলগুলো দ্রুত ধরতে পেরেছেন। নিয়মিত Practice-এ Confidence অনেক বেড়েছে।”</blockquote>
+        <div class="who"><span class="av">P</span><div><h6>Priya Chowdhury</h6><p class="small">United Kingdom</p></div><span class="score">PTE 73</span></div>
+      </div>
+    </div>
+    <div class="center-cta rv"><a class="btn btn-ghost" href="https://brightpte.com/resources/student-success-stories/">Read Success Stories <span class="arr">→</span></a></div>
+  </div>
+</section>
+
+<!-- EBOOK -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="ebook-card rv">
+      <img src="https://brightpte.com/wp-content/uploads/2026/07/PTE-Reading-and-writing-ebook-bundle-1024x768.jpeg" alt="Mastering PTE Writing & Reading eBook bundle">
+      <div>
+        <span class="pill">বাংলায় PTE eBook</span>
+        <h2>Mastering PTE Writing &amp; Reading</h2>
+        <p class="body-lg" style="margin-top:16px">সহজ বাংলায় Step-by-Step Guide। এক Bundle-এ দুটি বই, নিজের সময়ে Practice করার জন্য।</p>
+        <ul class="ticks">
+          <li>Writing Task-এর বাংলা ব্যাখ্যা</li>
+          <li>Ready-to-use Templates</li>
+          <li>Reading Question-wise Strategy</li>
+          <li>Time Management ও Common Mistakes</li>
+          <li>Practice Questions ও Model Answer</li>
+          <li>Task-wise Score Tips</li>
+        </ul>
+        <div class="meta-row"><span>Instant PDF Download</span><span>সব ডিভাইসে পড়া যায়</span><span class="save">Combo-তে ৳২০০ সাশ্রয়</span></div>
+        <div class="hero-ctas"><a class="btn btn-primary" href="https://brightpte.com/mastering-pte-writing-reading/">Get The Bundle <span class="arr">→</span></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="pill">সাধারণ প্রশ্ন</span>
+      <h2>Frequently Asked <span class="hl">Questions</span></h2>
+      <p class="body-lg">আরও প্রশ্ন থাকলে Free Counselling-এ সরাসরি জিজ্ঞেস করুন।</p>
+      <div class="hero-ctas"><a class="btn btn-ghost" href="https://brightpte.com/resources/faqs/">All FAQs <span class="arr">→</span></a></div>
+    </div>
+    <div class="faq-list rv">
+      <details open><summary>PTE Course কি Online?</summary><p>হ্যাঁ। সব ক্লাস Live Online, দেশের যেকোনো জায়গা থেকে অংশ নিতে পারবেন। প্রতিটি ক্লাসের Recording-ও দেওয়া হয় Revision-এর জন্য।</p></details>
+      <details><summary>PTE Mock Test কীভাবে নেওয়া হয়?</summary><p>আসল পরীক্ষার ধরন অনুযায়ী। Mock-এর মাধ্যমে আপনার প্রস্তুতি, Time Management আর প্রতিটি Module-এর Performance যাচাই করা হয়।</p></details>
+      <details><summary>ভালো Score পেতে কতদিন লাগে?</summary><p>এটি আপনার বর্তমান English Level, Target Score আর প্রতিদিনের Practice-এর ওপর নির্ভর করে। Level বুঝে একটি বাস্তবসম্মত Study Plan তৈরি করাই সবচেয়ে ভালো।</p></details>
+      <details><summary>Payment কীভাবে করব?</summary><p>bKash, Nagad সহ বিভিন্ন Payment Option রয়েছে, Course ও Service অনুযায়ী।</p></details>
+      <details><summary>Australia-এর জন্য কত Score প্রয়োজন?</summary><p>University, Course আর Visa Requirement অনুযায়ী ভিন্ন হয়। আপনার Profile অনুযায়ী সঠিক Requirement জানতে Free Counselling নিন।</p></details>
+      <details><summary>PTE নাকি IELTS, কোনটি ভালো?</summary><p>দুটিই স্বীকৃত। আপনার Target Country, University, Visa Requirement আর ব্যক্তিগত সুবিধার ওপর নির্ভর করে কোনটি আপনার জন্য ভালো।</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- MOCK CTA -->
+<div class="mock">
+  <div class="wrap">
+    <div class="mock-card rv">
+      <div style="position:relative;z-index:1">
+        <span class="pill">1:1 Live PTE Mock Session</span>
+        <h2>পরীক্ষার আগে নিজের প্রস্তুতি যাচাই করুন</h2>
+        <p class="body-lg">Dr. Syed Sunny-এর সাথে বাস্তব পরীক্ষার মতো একটি পূর্ণাঙ্গ Mock দিন, তারপর Task-by-task Feedback নিন।</p>
+        <ul class="ticks">
+          <li>Full PTE Exam Simulation</li>
+          <li>Task-by-task Review</li>
+          <li>Score Analysis</li>
+          <li>Personal Improvement Plan</li>
+        </ul>
+      </div>
+      <div class="mock-box">
+        <p class="small">Per session</p>
+        <p class="price">৳1,000 <small>/ 1 hour</small></p>
+        <dl>
+          <div><dt>Format</dt><dd>Live via Zoom / Meet</dd></div>
+          <div><dt>Schedule</dt><dd>বুধ, শনি ও রবি সন্ধ্যা</dd></div>
+          <div><dt>Payment</dt><dd>Slot Confirm-এর পর</dd></div>
+        </dl>
+        <a class="btn btn-primary" href="https://brightpte.com/mock-test/">Book Mock Slot <span class="arr">→</span></a>
+        <p class="small">এখন কোনো Payment লাগবে না</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="https://brightpte.com/"><img src="https://brightpte.com/wp-content/uploads/2026/07/bright_acamdey_logo-removebg-preview-150x150.png" alt="">Bright Academy</a>
+    <nav class="small">
+      <a href="https://brightpte.com/about/">About</a>
+      <a href="https://brightpte.com/courses/">Courses</a>
+      <a href="https://brightpte.com/shop/">Shop</a>
+      <a href="https://brightpte.com/blog/">Blog</a>
+      <a href="https://brightpte.com/contact/">Contact</a>
+    </nav>
+    <p class="small">* সফলতার হার আমাদের শিক্ষার্থীদের Target Score অর্জনের ভিত্তিতে।</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
