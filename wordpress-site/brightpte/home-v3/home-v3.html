@@ -11,21 +11,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
-/* Electr design system, colour roles mapped to the Bright Academy brand.
-   To use the original Electr palette: --color-accent:#FFEA03; --color-ink:#0D0D0D; --color-ink-2:#262626;
-   --color-bg:#FAFAFA; --color-surface-light:#EDEDED; --color-text-muted:#404040. */
+/* Electr design system, original palette. Buttons use white labels on black
+   (white on yellow is unreadable), with the yellow arrow tile as the accent. */
 :root{
-  --color-bg:#FAF6EF;
-  --color-surface-light:#EDE6DA;
-  --color-ink:#17223B;
-  --color-ink-2:#24304A;
-  --color-text-muted:#46536B;
+  --color-bg:#FAFAFA;
+  --color-surface-light:#EDEDED;
+  --color-ink:#0D0D0D;
+  --color-ink-2:#262626;
+  --color-text-muted:#404040;
   --color-text-on-dark:#FFFFFF;
   --color-muted-on-dark:#D9D9D9;
-  --color-accent:#F97316;
-  --color-accent-50:rgba(249,115,22,.5);
-  --color-overlay:rgba(23,34,59,.75);
-  --color-border:rgba(23,34,59,.16);
+  --color-accent:#FFEA03;
+  --color-accent-50:rgba(255,234,0,.5);
+  --color-overlay:rgba(13,13,13,.75);
+  --color-border:rgba(31,30,29,.4);
   --f:"Cabinet Grotesk","Inter",system-ui,sans-serif;
   --mono:"DM Mono",ui-monospace,monospace;
   --ease:cubic-bezier(.22,1,.36,1);
@@ -76,12 +75,13 @@ section{padding:128px 0}
 .btn .ar{width:40px;height:40px;border-radius:6px;display:grid;place-items:center;flex:0 0 40px}
 .btn .ar svg{width:16px;height:16px;transition:transform .45s var(--ease)}
 .btn:hover .ar svg{transform:rotate(45deg)}
-.btn-primary{background:var(--color-ink);color:var(--color-accent);box-shadow:var(--shadow-btn)}
+.btn-primary{background:var(--color-ink);color:#fff;box-shadow:var(--shadow-btn)}
 .btn-primary .ar{background:var(--color-accent);color:var(--color-ink)}
-.btn-accent{background:var(--color-accent);color:var(--color-ink)}
-.btn-accent .ar{background:var(--color-ink);color:var(--color-accent)}
-.btn-light{background:#fff;color:var(--color-ink)}
-.btn-light .ar{background:var(--color-ink);color:var(--color-accent)}
+.btn-accent{background:var(--color-ink);color:#fff;box-shadow:var(--shadow-btn)}
+.btn-accent .ar{background:var(--color-accent);color:var(--color-ink)}
+.dark .btn-accent,footer .btn-accent{background:var(--color-ink-2);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}
+.btn-light{background:var(--color-ink);color:#fff}
+.btn-light .ar{background:var(--color-accent);color:var(--color-ink)}
 .textlink{display:inline-flex;align-items:center;gap:8px;color:var(--color-ink);border-bottom:1px solid var(--color-border);padding-bottom:4px;transition:border-color .3s}
 .textlink:hover{border-color:var(--color-ink)}
 
@@ -150,7 +150,7 @@ section{padding:128px 0}
 .card.hot h5,.card.hot .num{color:var(--color-ink)}
 .card.tall{grid-row:span 2;padding:0;min-height:540px}
 .card.tall img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
-.card.tall:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,34,59,0) 40%,rgba(23,34,59,.92))}
+.card.tall:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,13,13,0) 40%,rgba(13,13,13,.92))}
 .card.tall .cap{position:absolute;left:24px;right:24px;bottom:24px;z-index:1;display:flex;flex-direction:column;gap:8px}
 .num{font-size:clamp(56px,6vw,72px);line-height:1;letter-spacing:-.04em;color:#fff;font-weight:500}
 .card.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.1);opacity:.35;transition:transform 1s var(--ease)}
@@ -232,7 +232,7 @@ section{padding:128px 0}
 .tcard h5{font-size:18px}
 .tcard .mono{color:var(--color-text-muted);margin-top:6px;display:block}
 .tcard .score{margin-left:auto;background:var(--color-ink);color:var(--color-accent);border-radius:4px;padding:6px 8px}
-.tcard .stars{color:var(--color-accent);letter-spacing:2px;font-size:14px}
+.tcard .stars{color:var(--color-ink);letter-spacing:2px;font-size:14px}
 
 /* mock CTA */
 .cta{display:grid;grid-template-columns:1.2fr .8fr;gap:10px}
@@ -242,9 +242,9 @@ section{padding:128px 0}
 .cta ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .cta li{display:flex;gap:12px;align-items:center;color:#fff}
 .cta li b{width:32px;height:32px;border-radius:6px;background:var(--color-ink-2);color:var(--color-accent);display:grid;place-items:center;font-family:var(--mono);font-weight:400;font-size:12px;flex:0 0 32px}
-.price .num{color:var(--color-ink)}
+.cta .price p.num{color:var(--color-ink);font-size:clamp(48px,5vw,64px);max-width:none;white-space:nowrap}
 .price dl{margin:0;display:grid;gap:10px}
-.price dl div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(23,34,59,.2);padding-bottom:10px;font-size:15px}
+.price dl div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(13,13,13,.2);padding-bottom:10px;font-size:15px}
 .price dt{color:var(--color-ink);opacity:.75}
 .price dd{margin:0;color:var(--color-ink);text-align:right}
 .price .btn{width:100%;justify-content:space-between}
