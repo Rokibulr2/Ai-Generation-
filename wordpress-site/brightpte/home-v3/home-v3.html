@@ -7,9 +7,6 @@
 <title>Bright Academy | PTE Coaching, Ready When You Are</title>
 <link rel="preconnect" href="https://api.fontshare.com">
 <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 /* Electr design system, original palette. Buttons use white labels on black
    (white on yellow is unreadable), with the yellow arrow tile as the accent. */
@@ -26,7 +23,11 @@
   --color-overlay:rgba(13,13,13,.75);
   --color-border:rgba(31,30,29,.4);
   --f:"Cabinet Grotesk","Inter",system-ui,sans-serif;
-  --mono:"DM Mono",ui-monospace,monospace;
+  --mono:"Cabinet Grotesk","Inter",system-ui,sans-serif;
+  --logo-orange:#F7931E;
+  --logo-indigo:#13107A;
+  --logo-indigo-2:#1F1B95;
+  --logo-indigo-3:#0C0A52;
   --ease:cubic-bezier(.22,1,.36,1);
   --shadow-btn:0 1px 1px -.3px rgba(0,0,0,.13),0 4px 2px -.9px rgba(0,0,0,.13),0 10px 6px -1.5px rgba(0,0,0,.13),0 24px 20px -3px rgba(0,0,0,.13);
 }
@@ -44,7 +45,7 @@ h3{font-size:clamp(26px,2.6vw,32px);line-height:1}
 h4{font-size:clamp(22px,2.2vw,28px);line-height:1}
 h5{font-size:20px;line-height:1.3;letter-spacing:.02em}
 .accent{color:var(--color-accent)}
-.mono{font-family:var(--mono);font-weight:400;font-size:12px;line-height:1;letter-spacing:0;text-transform:uppercase}
+.mono{font-family:var(--mono);font-weight:500;font-size:12px;line-height:1;letter-spacing:.08em;text-transform:uppercase}
 .small{font-size:14px;line-height:1.2}
 .dark{background:var(--color-ink);color:var(--color-muted-on-dark)}
 .dark h1,.dark h2,.dark h3,.dark h4,.dark h5{color:#fff}
@@ -82,6 +83,19 @@ section{padding:128px 0}
 .dark .btn-accent,footer .btn-accent{background:var(--color-ink-2);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}
 .btn-light{background:var(--color-ink);color:#fff}
 .btn-light .ar{background:var(--color-accent);color:var(--color-ink)}
+.btn-outline{background:transparent;color:var(--color-ink);box-shadow:inset 0 0 0 1.5px var(--color-ink);transition:background .35s var(--ease),color .35s var(--ease)}
+.btn-outline .ar{box-shadow:inset 0 0 0 1.5px var(--color-ink);color:var(--color-ink);transition:background .35s var(--ease),color .35s,box-shadow .35s}
+.btn-outline:hover{background:var(--color-ink);color:#fff}
+.btn-outline:hover .ar{background:var(--color-accent);box-shadow:none;color:var(--color-ink)}
+.on-dark .btn-outline,.dark .btn-outline{color:#fff;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.55)}
+.on-dark .btn-outline .ar,.dark .btn-outline .ar{box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.55);color:#fff}
+.on-dark .btn-outline:hover,.dark .btn-outline:hover{background:#fff;color:var(--color-ink)}
+.on-dark .btn-outline:hover .ar,.dark .btn-outline:hover .ar{background:var(--color-ink);color:var(--color-accent);box-shadow:none}
+.btn-indigo{background:var(--logo-indigo);color:#fff;box-shadow:var(--shadow-btn)}
+.btn-indigo .ar{background:var(--logo-orange);color:var(--logo-indigo)}
+.btn-indigo:hover{background:var(--logo-indigo-2)}
+.btn-sm{font-size:15px;padding:3px 3px 3px 16px;gap:12px}
+.btn-sm .ar{width:34px;height:34px;flex-basis:34px}
 .textlink{display:inline-flex;align-items:center;gap:8px;color:var(--color-ink);border-bottom:1px solid var(--color-border);padding-bottom:4px;transition:border-color .3s}
 .textlink:hover{border-color:var(--color-ink)}
 
@@ -98,7 +112,7 @@ section{padding:128px 0}
 .topbar span{display:inline-flex;align-items:center;gap:8px}
 .topbar svg{width:16px;height:16px;stroke:var(--color-ink);fill:none;stroke-width:1.5}
 .topbar a{text-decoration:underline;text-underline-offset:3px}
-.preview-flag{background:#000;color:#fff;text-align:center;font-size:12px;padding:5px;font-family:var(--mono)}
+.preview-flag{background:#000;color:#fff;text-align:center;font-size:12px;padding:5px;letter-spacing:.08em}
 
 /* nav */
 .nav{position:sticky;top:0;z-index:50;background:var(--color-bg);border-bottom:1px solid var(--color-border)}
@@ -162,39 +176,9 @@ section{padding:128px 0}
 .icon-tile{width:48px;height:48px;border-radius:6px;background:var(--color-ink-2);display:grid;place-items:center}
 .card.hot .icon-tile{background:var(--color-ink)}
 
-/* services (courses) */
 .services{display:flex;flex-direction:column;gap:10px;margin-top:64px}
-.svc{display:grid;grid-template-columns:400px 1fr;gap:24px;background:var(--color-ink);border-radius:12px;padding:12px;color:var(--color-muted-on-dark);transition:transform .45s var(--ease)}
-.svc:hover{transform:translateY(-4px)}
-.svc .img{position:relative;border-radius:6px;overflow:hidden;min-height:240px}
-.svc .img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease)}
-.svc:hover .img img{transform:scale(1.06)}
-.svc .img .icon-tile{position:absolute;left:12px;top:12px}
-.svc .body{display:flex;flex-direction:column;gap:16px;padding:16px 16px 12px 0}
-.svc h4{color:#fff}
-.svc .body p{max-width:520px}
-.svc ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;font-size:15px}
-.svc li{display:flex;gap:8px;align-items:center}
-.svc li:before{content:"";width:6px;height:6px;border-radius:100px;background:var(--color-accent);flex:0 0 6px}
-.svc .foot{margin-top:auto;display:flex;align-items:center;gap:16px}
-.svc .foot .mono{color:var(--color-accent)}
-.svc .foot hr{flex:1;border:0;border-top:1px solid rgba(255,255,255,.18);margin:0}
-.svc .foot .go{width:40px;height:40px;border-radius:6px;background:var(--color-ink-2);display:grid;place-items:center;color:var(--color-accent);transition:background .3s,color .3s}
-.svc:hover .foot .go{background:var(--color-accent);color:var(--color-ink)}
-.svc .go svg{width:16px;height:16px;transition:transform .45s var(--ease)}
-.svc:hover .go svg{transform:rotate(45deg)}
 
-/* process */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:64px}
-.step{background:#fff;border:1px solid var(--color-border);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:16px;min-height:220px;transition:background .4s,border-color .4s,color .4s}
-.step .mono{color:var(--color-text-muted)}
-.step h5{font-size:22px}
-.step:hover{background:var(--color-ink);border-color:var(--color-ink);color:var(--color-muted-on-dark)}
-.step:hover h5{color:#fff}
-.step:hover .mono{color:var(--color-accent)}
-.step .bar{margin-top:auto;height:2px;background:var(--color-surface-light);border-radius:2px;overflow:hidden}
-.step .bar i{display:block;height:100%;background:var(--color-accent);width:0;transition:width 1.2s var(--ease)}
-.step.in .bar i{width:var(--w)}
 
 /* trainer */
 .trainer .outer{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
@@ -202,7 +186,7 @@ section{padding:128px 0}
 .trainer-img img{width:100%;height:100%;object-fit:cover;object-position:top}
 .trainer-img .glass{opacity:1;animation:none;left:24px;bottom:24px}
 .trainer-copy{display:flex;flex-direction:column;gap:24px}
-.trainer-copy .role{font-family:var(--mono);font-size:12px;text-transform:uppercase;color:var(--color-text-muted);letter-spacing:0}
+.trainer-copy .role{font-family:var(--mono);font-size:12px;text-transform:uppercase;color:var(--color-text-muted);letter-spacing:.08em}
 .trainer-copy p.lead{font-size:18px;color:var(--color-ink)}
 .feat{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .feat div{background:#fff;border:1px solid var(--color-border);border-radius:12px;padding:16px;display:flex;gap:12px;align-items:center;color:var(--color-ink);font-size:16px}
@@ -241,7 +225,7 @@ section{padding:128px 0}
 .cta .card p{max-width:448px;font-size:18px}
 .cta ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .cta li{display:flex;gap:12px;align-items:center;color:#fff}
-.cta li b{width:32px;height:32px;border-radius:6px;background:var(--color-ink-2);color:var(--color-accent);display:grid;place-items:center;font-family:var(--mono);font-weight:400;font-size:12px;flex:0 0 32px}
+.cta li b{width:32px;height:32px;border-radius:6px;background:var(--color-ink-2);color:var(--color-accent);display:grid;place-items:center;font-family:var(--mono);font-weight:500;font-size:13px;letter-spacing:.04em;flex:0 0 32px}
 .cta .price p.num{color:var(--color-ink);font-size:clamp(48px,5vw,64px);max-width:none;white-space:nowrap}
 .price dl{margin:0;display:grid;gap:10px}
 .price dl div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(13,13,13,.2);padding-bottom:10px;font-size:15px}
@@ -282,7 +266,7 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
 .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding:64px 0}
 .fgrid .brand{color:#fff}
 .fgrid p{margin-top:16px;max-width:320px}
-.fgrid h6{margin:0 0 16px;font-family:var(--mono);font-weight:400;font-size:12px;text-transform:uppercase;color:var(--color-accent);letter-spacing:0}
+.fgrid h6{margin:0 0 16px;font-family:var(--mono);font-weight:500;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--color-accent);letter-spacing:0}
 .fgrid ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .fgrid a:hover{color:#fff}
 .pay{display:inline-block;background:#fff;border-radius:6px;padding:8px 12px;margin-top:24px}
@@ -290,6 +274,108 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
 .fbottom{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);font-size:14px}
 .word{font-size:min(11vw,150px);line-height:.85;letter-spacing:-.04em;color:var(--color-ink-2);white-space:nowrap;margin-top:32px;user-select:none}
 .word span{color:var(--color-accent)}
+
+/* ===== Courses: programme catalogue in logo colours ===== */
+.programmes{background:var(--logo-indigo);color:rgba(255,255,255,.78);position:relative;overflow:hidden}
+.programmes:before{content:"";position:absolute;right:-260px;top:-300px;width:520px;height:520px;border-radius:100px;border:1.5px solid rgba(247,147,30,.22);transform:rotate(18deg);pointer-events:none}
+.programmes .outer{position:relative;z-index:1}
+.programmes h2,.programmes h4,.programmes h5{color:#fff}
+.programmes .label{background:rgba(255,255,255,.1);color:#fff}
+.programmes .label:before{background:var(--logo-orange)}
+.prog-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap}
+.prog-head .left{max-width:600px;display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.prog-head .lead{font-size:18px;max-width:520px}
+.prog-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:56px}
+.prog{background:#fff;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;color:var(--color-text-muted);transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+.prog:hover{transform:translateY(-4px);box-shadow:0 24px 48px rgba(12,10,82,.35)}
+.prog .img{position:relative;aspect-ratio:16/8;overflow:hidden}
+.prog .img img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease)}
+.prog:hover .img img{transform:scale(1.05)}
+.prog .lvl{position:absolute;left:12px;top:12px;background:var(--logo-orange);color:var(--logo-indigo-3);border-radius:6px;padding:6px 10px;font-size:13px;letter-spacing:.04em}
+.prog .pop{position:absolute;right:12px;top:12px;background:var(--logo-indigo);color:#fff;border-radius:6px;padding:6px 10px;font-size:13px;display:flex;gap:6px;align-items:center}
+.prog .pop:before{content:"★";color:var(--logo-orange)}
+.prog .bd{padding:24px;display:flex;flex-direction:column;gap:16px;flex:1}
+.prog h4{color:var(--logo-indigo)}
+.prog dl{margin:0;display:grid;gap:0;border-top:1px solid #E7E6F2}
+.prog dl div{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #E7E6F2;font-size:15px}
+.prog dt{color:var(--logo-indigo);opacity:.7}
+.prog dd{margin:0;color:var(--color-ink)}
+.prog .acts{margin-top:auto;display:flex;gap:10px;flex-wrap:wrap;padding-top:8px}
+.prog .btn-outline{color:var(--logo-indigo);box-shadow:inset 0 0 0 1.5px var(--logo-indigo)}
+.prog .btn-outline .ar{box-shadow:inset 0 0 0 1.5px var(--logo-indigo);color:var(--logo-indigo)}
+.prog .btn-outline:hover{background:var(--logo-indigo);color:#fff}
+.prog .btn-outline:hover .ar{background:var(--logo-orange);color:var(--logo-indigo);box-shadow:none}
+.finder{margin-top:10px;background:var(--logo-indigo-3);border-radius:12px;padding:32px;display:grid;grid-template-columns:.8fr 1.2fr;gap:32px;align-items:start}
+.finder h4{color:#fff}
+.finder p{margin-top:12px}
+.finder .btn{margin-top:24px}
+.finder ul{list-style:none;margin:0;padding:0;display:grid}
+.finder li a{display:grid;grid-template-columns:1fr auto 40px;gap:16px;align-items:center;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#fff;transition:padding .35s var(--ease)}
+.finder li:first-child a{border-top:1px solid rgba(255,255,255,.12)}
+.finder li a:hover{padding-left:10px}
+.finder li span{color:rgba(255,255,255,.72)}
+.finder li b{font-weight:500;color:var(--logo-orange);white-space:nowrap}
+.finder li i{width:40px;height:40px;border-radius:6px;background:rgba(255,255,255,.08);display:grid;place-items:center;color:var(--logo-orange);font-style:normal;transition:background .3s,color .3s,transform .45s var(--ease)}
+.finder li a:hover i{background:var(--logo-orange);color:var(--logo-indigo-3);transform:rotate(-45deg)}
+
+/* ===== Curriculum ===== */
+.curr{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:64px}
+.mod{background:var(--color-ink);border-radius:12px;padding:24px;color:var(--color-muted-on-dark);display:flex;flex-direction:column;gap:16px}
+.mod .top{display:flex;justify-content:space-between;align-items:center}
+.mod .cnt{font-size:56px;line-height:1;letter-spacing:-.04em;color:#fff}
+.mod .cnt span{color:var(--color-accent)}
+.mod h5{color:#fff;font-size:22px}
+.mod ul{list-style:none;margin:0;padding:16px 0 0;border-top:1px solid rgba(255,255,255,.14);display:grid;gap:8px;font-size:15px}
+.mod li{display:flex;gap:10px;align-items:baseline}
+.mod li:before{content:"";width:5px;height:5px;border-radius:100px;background:var(--color-accent);flex:0 0 5px;transform:translateY(-2px)}
+.curr-note{margin-top:16px;text-align:center;font-size:14px}
+
+/* ===== Method: sticky intro + timeline ===== */
+.method .outer{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:start}
+.method .side{position:sticky;top:120px;display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.method .side .lead{font-size:18px;max-width:420px}
+.method .side .btn{margin-top:16px}
+.tl{position:relative;padding-left:0}
+.tl-item:not(:last-child):before{content:"";position:absolute;left:35px;top:72px;bottom:0;width:2px;background:var(--color-surface-light);transition:background .5s}
+.tl-item.lit:not(:last-child):before{background:var(--color-ink)}
+.tl-item{position:relative;display:grid;grid-template-columns:72px 1fr;gap:24px;padding:0 0 40px}
+.tl-item:last-child{padding-bottom:0}
+.tl-num{width:72px;height:72px;border-radius:12px;background:var(--color-bg);border:1.5px solid var(--color-surface-light);display:grid;place-items:center;font-size:28px;letter-spacing:-.02em;color:#A3A3A3;position:relative;z-index:1;transition:background .5s var(--ease),color .5s,border-color .5s}
+.tl-item.lit .tl-num{background:var(--color-ink);border-color:var(--color-ink);color:var(--color-accent)}
+.tl-body{padding-top:8px;display:flex;flex-direction:column;gap:8px}
+.tl-body .when{align-self:flex-start;background:var(--color-surface-light);color:var(--color-ink);border-radius:4px;padding:4px 8px;font-size:13px}
+.tl-item.lit .when{background:var(--color-accent)}
+.tl-body h4{font-size:26px}
+.tl-body p{max-width:480px}
+
+/* ===== Admissions ===== */
+.adm{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:64px;counter-reset:a}
+.adm-card{background:#fff;border:1px solid var(--color-border);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:12px;position:relative;transition:transform .45s var(--ease),border-color .45s}
+.adm-card:hover{transform:translateY(-4px);border-color:var(--color-ink)}
+.adm-card .n{display:flex;justify-content:space-between;align-items:center}
+.adm-card .n b{font-weight:500;font-size:14px;color:var(--color-ink);background:var(--color-accent);border-radius:4px;padding:4px 8px}
+.adm-card .n svg{width:28px;height:28px;stroke:var(--color-ink);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.adm-card h5{font-size:22px;margin-top:24px}
+.adm-acts{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:40px}
+
+@media (max-width:1023px){
+  .prog-grid,.finder,.method .outer{grid-template-columns:1fr}
+  .method .side{position:static}
+  .curr,.adm{grid-template-columns:1fr 1fr}
+}
+@media (max-width:809px){
+  .curr,.adm{grid-template-columns:1fr}
+  .programmes:before{display:none}
+  .finder{padding:24px}
+  .finder li a{grid-template-columns:1fr 40px}
+  .finder li b{grid-column:1;grid-row:2}
+  .finder li i{grid-column:2;grid-row:1/span 2}
+  .prog dl div{grid-template-columns:80px 1fr}
+  .tl-item{grid-template-columns:56px 1fr;gap:16px}
+  .tl-num{width:56px;height:56px;font-size:22px}
+  .tl-item:not(:last-child):before{left:27px;top:56px}
+  .prog .acts .btn{flex:1 1 100%;justify-content:space-between}
+}
 
 /* responsive */
 @media (max-width:1199px){
@@ -350,11 +436,11 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
   <div class="outer">
     <a class="brand" href="https://brightpte.com/"><img src="https://brightpte.com/wp-content/uploads/2026/07/bright_acamdey_logo-removebg-preview-150x150.png" alt="">Bright Academy<sup>©</sup></a>
     <nav class="links">
-      <a href="#courses">Courses</a>
+      <a href="#courses">Programmes</a>
+      <a href="#curriculum">Curriculum</a>
       <a href="#method">Method</a>
+      <a href="#admissions">Admissions</a>
       <a href="#destinations">Study Abroad</a>
-      <a href="https://brightpte.com/resources/">Resources</a>
-      <a href="https://brightpte.com/blog/">Blog</a>
       <a href="#faq">FAQ</a>
     </nav>
     <a class="btn btn-accent" href="https://brightpte.com/courses/"><span class="lbl"><span>Enroll Now</span><span>Enroll Now</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
@@ -362,7 +448,7 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
   </div>
 </header>
 <nav class="mnav" aria-label="Mobile menu">
-  <a href="#courses">Courses</a><a href="#method">Method</a><a href="#destinations">Study Abroad</a><a href="https://brightpte.com/resources/">Resources</a><a href="https://brightpte.com/blog/">Blog</a><a href="#faq">FAQ</a>
+  <a href="#courses">Programmes</a><a href="#curriculum">Curriculum</a><a href="#method">Method</a><a href="#admissions">Admissions</a><a href="#destinations">Study Abroad</a><a href="#faq">FAQ</a>
   <a class="btn btn-accent" style="margin-top:16px;justify-content:space-between;border:0" href="https://brightpte.com/courses/"><span class="lbl"><span>Enroll Now</span><span>Enroll Now</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
 </nav>
 
@@ -370,12 +456,12 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
 <section class="hero">
   <div class="outer">
     <div class="hero-copy">
-      <span class="avail rv"><i></i>New batches enrolling now</span>
-      <h1 class="rv">Trusted PTE Coaching, Ready When You Are</h1>
-      <p class="rv">Live online classes, a full mock test every week and personal feedback from a C1 certified trainer. Built to move your score to 65+ or 79+.</p>
+      <span class="avail rv"><i></i>PTE Academy · New batches enrolling now</span>
+      <h1 class="rv">A PTE Academy Built Around Your Target Score</h1>
+      <p class="rv">Structured programmes, live online classes, a full mock test every week and personal feedback from a C1 certified trainer. For students across Bangladesh aiming for 65+ or 79+.</p>
       <div class="hero-ctas rv">
         <a class="btn btn-primary" href="https://brightpte.com/courses/"><span class="lbl"><span>Explore Courses</span><span>Explore Courses</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
-        <a class="textlink" href="https://brightpte.com/contact/">Book free counselling</a>
+        <a class="btn btn-outline" href="https://brightpte.com/contact/"><span class="lbl"><span>Free Counselling</span><span>Free Counselling</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
       </div>
       <div class="proof rv">
         <div class="faces"><span>NR</span><span>SH</span><span>PC</span></div>
@@ -425,71 +511,104 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
   </div>
 </section>
 
-<!-- COURSES (services) -->
-<section id="courses" style="padding-top:0">
-  <div class="outer">
-    <div class="intro">
-      <span class="label rv">Courses</span>
-      <h2 class="rv">A Course for Every Starting Point</h2>
-      <p class="lead rv">From building your English from scratch to a last-minute score boost, pick the path that fits where you are today.</p>
-      <a class="btn btn-primary rv" href="https://brightpte.com/courses/"><span class="lbl"><span>All Courses</span><span>All Courses</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
+<!-- COURSES: programme catalogue in logo colours -->
+<section id="courses" class="programmes on-dark">
+  <div class="outer content">
+    <div class="prog-head">
+      <div class="left">
+        <span class="label rv">Programmes</span>
+        <h2 class="rv">Choose Your PTE Programme</h2>
+        <p class="lead rv">Four programmes, one teaching team. Every class is live online and every programme is built around a target score.</p>
+      </div>
+      <div class="rv"><a class="btn btn-outline" href="https://brightpte.com/courses/"><span class="lbl"><span>Compare All Courses</span><span>Compare All Courses</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
     </div>
-    <div class="content services">
-      <a class="svc rv" href="https://brightpte.com/courses/complete-pte-course/">
-        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-course-complete-online-class-1024x768.jpg" alt="Live online PTE class on a laptop" loading="lazy"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span></div>
-        <div class="body">
+    <div class="prog-grid">
+      <article class="prog rv">
+        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-course-complete-online-class-1024x768.jpg" alt="Live online PTE class on a laptop" loading="lazy"><span class="lvl">Intermediate to advanced</span><span class="pop">Most popular</span></div>
+        <div class="bd">
           <h4>Complete PTE Course</h4>
-          <p>Full live preparation across Speaking, Writing, Reading and Listening for admission, study abroad or migration.</p>
-          <ul><li>Task-by-task exam strategy</li><li>Weekly full mock tests</li><li>Speaking and Writing feedback</li><li>Templates and recordings</li></ul>
-          <div class="foot"><span class="mono">65+ / 79+ target</span><hr><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></div>
+          <p>Our flagship programme. Full preparation across Speaking, Writing, Reading and Listening.</p>
+          <dl><div><dt>Best for</dt><dd>Admission, study abroad or migration with a 65+ or 79+ target</dd></div><div><dt>Format</dt><dd>Live online classes, with recordings</dd></div><div><dt>Includes</dt><dd>All four modules, weekly mock tests, Speaking and Writing feedback, templates</dd></div></dl>
+          <div class="acts"><a class="btn btn-indigo btn-sm" href="https://brightpte.com/courses/complete-pte-course/"><span class="lbl"><span>View Course</span><span>View Course</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a><a class="btn btn-outline btn-sm" href="https://brightpte.com/contact/"><span class="lbl"><span>Free Counselling</span><span>Free Counselling</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
         </div>
-      </a>
-      <a class="svc rv" href="https://brightpte.com/courses/foundation-pte/">
-        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-course-foundation-writing-1024x683.jpg" alt="Student writing notes to build English foundations" loading="lazy"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg></span></div>
-        <div class="body">
+      </article>
+      <article class="prog rv">
+        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-course-foundation-writing-1024x683.jpg" alt="Student writing notes to build English foundations" loading="lazy"><span class="lvl">Beginner</span></div>
+        <div class="bd">
           <h4>Foundation Course</h4>
-          <p>Strengthen grammar, vocabulary, pronunciation and speaking before you step into full PTE preparation.</p>
-          <ul><li>Essential grammar and vocabulary</li><li>Pronunciation practice</li><li>Daily sentence drills</li><li>Smooth step into Complete</li></ul>
-          <div class="foot"><span class="mono">Build your English</span><hr><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></div>
+          <p>Build the English you need first, then move into full PTE preparation with confidence.</p>
+          <dl><div><dt>Best for</dt><dd>Students whose grammar, vocabulary or speaking needs work</dd></div><div><dt>Format</dt><dd>Live online classes</dd></div><div><dt>Includes</dt><dd>Grammar, vocabulary, pronunciation, sentence practice, a path into the Complete Course</dd></div></dl>
+          <div class="acts"><a class="btn btn-indigo btn-sm" href="https://brightpte.com/courses/foundation-pte/"><span class="lbl"><span>View Course</span><span>View Course</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a><a class="btn btn-outline btn-sm" href="https://brightpte.com/contact/"><span class="lbl"><span>Free Counselling</span><span>Free Counselling</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
         </div>
-      </a>
-      <a class="svc rv" href="https://brightpte.com/courses/crash-course/">
-        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-course-crash-focused-study-1024x683.jpg" alt="Students doing intensive PTE practice together" loading="lazy"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></span></div>
-        <div class="body">
+      </article>
+      <article class="prog rv">
+        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-course-crash-focused-study-1024x683.jpg" alt="Students doing intensive PTE practice together" loading="lazy"><span class="lvl">Exam ready</span></div>
+        <div class="bd">
           <h4>PTE Crash Course</h4>
-          <p>Exam date close, or a previous score fell short? Find your weak spots fast and fix them before test day.</p>
-          <ul><li>Intensive live sessions</li><li>Day-one diagnostic mock</li><li>High-impact question types</li><li>Exam-day tactics</li></ul>
-          <div class="foot"><span class="mono">Exam coming soon</span><hr><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></div>
+          <p>A short, intensive programme that targets your weak areas before test day.</p>
+          <dl><div><dt>Best for</dt><dd>An exam date that is close, or a retake after a lower score</dd></div><div><dt>Format</dt><dd>Intensive live sessions</dd></div><div><dt>Includes</dt><dd>Diagnostic mock, key question types, updated templates, exam-day strategy, feedback</dd></div></dl>
+          <div class="acts"><a class="btn btn-indigo btn-sm" href="https://brightpte.com/courses/crash-course/"><span class="lbl"><span>View Course</span><span>View Course</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a><a class="btn btn-outline btn-sm" href="https://brightpte.com/contact/"><span class="lbl"><span>Free Counselling</span><span>Free Counselling</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
         </div>
-      </a>
-      <a class="svc rv" href="https://brightpte.com/courses/weekly-mock-tests/">
-        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-mock-exam-room-1024x576.jpg" alt="Exam room set up for a PTE mock test" loading="lazy"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span></div>
-        <div class="body">
+      </article>
+      <article class="prog rv">
+        <div class="img"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-mock-exam-room-1024x576.jpg" alt="Exam room set up for a PTE mock test" loading="lazy"><span class="lvl">All levels</span></div>
+        <div class="bd">
           <h4>Weekly Mock Tests</h4>
-          <p>Already preparing on your own? Sit full, real-format mocks and track your score week by week.</p>
-          <ul><li>Real exam timing</li><li>Module-by-module scores</li><li>Progress tracked weekly</li><li>Join anytime</li></ul>
-          <div class="foot"><span class="mono">Self-study add-on</span><hr><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></div>
+          <p>Real-format mock tests for students preparing on their own or alongside another course.</p>
+          <dl><div><dt>Best for</dt><dd>Self-study students who want exam practice and a score to track</dd></div><div><dt>Format</dt><dd>Full mock tests in exam format</dd></div><div><dt>Includes</dt><dd>Module-by-module performance, timing practice, weekly progress</dd></div></dl>
+          <div class="acts"><a class="btn btn-indigo btn-sm" href="https://brightpte.com/courses/weekly-mock-tests/"><span class="lbl"><span>View Course</span><span>View Course</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a><a class="btn btn-outline btn-sm" href="https://brightpte.com/contact/"><span class="lbl"><span>Free Counselling</span><span>Free Counselling</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
         </div>
-      </a>
+      </article>
+    </div>
+    <div class="finder rv">
+      <div>
+        <h4>Which programme is right for me?</h4>
+        <p>Start from where you are today. If you are still unsure, a free counselling call takes 15 minutes.</p>
+        <a class="btn btn-outline" href="https://brightpte.com/contact/"><span class="lbl"><span>Book Free Counselling</span><span>Book Free Counselling</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
+      </div>
+      <ul>
+        <li><a href="https://brightpte.com/courses/foundation-pte/"><span>I'm new to PTE and my English needs work</span><b>Foundation Course</b><i>→</i></a></li>
+        <li><a href="https://brightpte.com/courses/complete-pte-course/"><span>I want a full, structured path to 65+ or 79+</span><b>Complete PTE Course</b><i>→</i></a></li>
+        <li><a href="https://brightpte.com/courses/crash-course/"><span>My exam is soon, or I need to retake it</span><b>PTE Crash Course</b><i>→</i></a></li>
+        <li><a href="https://brightpte.com/courses/weekly-mock-tests/"><span>I study on my own and want real exam practice</span><b>Weekly Mock Tests</b><i>→</i></a></li>
+      </ul>
     </div>
   </div>
 </section>
 
-<!-- METHOD -->
-<section id="method" style="padding-top:0">
+<!-- CURRICULUM -->
+<section id="curriculum">
   <div class="outer">
     <div class="intro">
-      <span class="label rv">Our Method</span>
-      <h2 class="rv">Six Steps From Day One to Exam Ready</h2>
-      <p class="lead rv">Not more practice. The right practice, built around what is holding your score back.</p>
+      <span class="label rv">Curriculum</span>
+      <h2 class="rv">Every Task in the PTE Academic Exam</h2>
+      <p class="lead rv">Our classes cover all 22 scored task types across the four skills, so nothing on exam day is new to you.</p>
     </div>
-    <div class="content steps">
-      <div class="step rv" style="--w:16%"><span class="mono">Step 01</span><h5>Diagnostic Test</h5><p>We measure your current English and PTE level.</p><div class="bar"><i></i></div></div>
-      <div class="step rv" style="--w:33%"><span class="mono">Step 02</span><h5>Personal Plan</h5><p>A realistic plan built around your target score.</p><div class="bar"><i></i></div></div>
-      <div class="step rv" style="--w:50%"><span class="mono">Step 03</span><h5>Live Strategy</h5><p>Hands-on strategy for every high-value task.</p><div class="bar"><i></i></div></div>
-      <div class="step rv" style="--w:66%"><span class="mono">Step 04</span><h5>Daily Practice</h5><p>Homework, templates and practice sets.</p><div class="bar"><i></i></div></div>
-      <div class="step rv" style="--w:83%"><span class="mono">Step 05</span><h5>Weekly Mock</h5><p>A full mock to test progress under pressure.</p><div class="bar"><i></i></div></div>
-      <div class="step rv" style="--w:100%"><span class="mono">Step 06</span><h5>Feedback Loop</h5><p>Results analysed, next week's plan set.</p><div class="bar"><i></i></div></div>
+    <div class="content curr">
+      <div class="mod rv"><div class="top"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span><span class="cnt">7</span></div><h5>Speaking</h5><ul><li>Read Aloud</li><li>Repeat Sentence</li><li>Describe Image</li><li>Re-tell Lecture</li><li>Answer Short Question</li><li>Summarize Group Discussion</li><li>Respond to a Situation</li></ul></div>
+      <div class="mod rv"><div class="top"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span><span class="cnt">2</span></div><h5>Writing</h5><ul><li>Summarize Written Text</li><li>Write Essay</li></ul></div>
+      <div class="mod rv"><div class="top"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2zM22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/></svg></span><span class="cnt">5</span></div><h5>Reading</h5><ul><li>Reading &amp; Writing: Fill in the Blanks</li><li>Multiple Choice, Multiple Answers</li><li>Re-order Paragraphs</li><li>Reading: Fill in the Blanks</li><li>Multiple Choice, Single Answer</li></ul></div>
+      <div class="mod rv"><div class="top"><span class="icon-tile"><svg class="ico" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg></span><span class="cnt">8</span></div><h5>Listening</h5><ul><li>Summarize Spoken Text</li><li>Multiple Choice, Multiple Answers</li><li>Fill in the Blanks</li><li>Highlight Correct Summary</li><li>Multiple Choice, Single Answer</li><li>Select Missing Word</li><li>Highlight Incorrect Words</li><li>Write from Dictation</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD: sticky intro + timeline -->
+<section id="method" class="method" style="padding-top:0">
+  <div class="outer content">
+    <div class="side">
+      <span class="label rv">Our Method</span>
+      <h2 class="rv">How We Take You From Level Check to Exam Day</h2>
+      <p class="lead rv">Every student follows the same proven cycle. What changes is the plan, which is built around your level and your target score.</p>
+      <div class="rv"><a class="btn btn-outline" href="#courses"><span class="lbl"><span>See Our Courses</span><span>See Our Courses</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
+    </div>
+    <div class="tl" id="tl">
+      <div class="tl-item"><span class="tl-num">01</span><div class="tl-body"><span class="when">Day one</span><h4>Level check</h4><p>A short diagnostic mock shows where you stand in each skill, so your preparation starts from facts, not guesses.</p></div></div>
+      <div class="tl-item"><span class="tl-num">02</span><div class="tl-body"><span class="when">First week</span><h4>Your study plan</h4><p>We agree a realistic target date and a weekly plan that fits your score goal and your schedule.</p></div></div>
+      <div class="tl-item"><span class="tl-num">03</span><div class="tl-body"><span class="when">Every class</span><h4>Live strategy classes</h4><p>Your trainer breaks down each question type, shows what earns marks and what loses them, then you practise it live.</p></div></div>
+      <div class="tl-item"><span class="tl-num">04</span><div class="tl-body"><span class="when">Every day</span><h4>Practice between classes</h4><p>Short practice sets, templates and homework keep your skills sharp from one class to the next.</p></div></div>
+      <div class="tl-item"><span class="tl-num">05</span><div class="tl-body"><span class="when">Every week</span><h4>Full mock test</h4><p>A complete mock under real timing shows how far you have moved and where marks are still slipping.</p></div></div>
+      <div class="tl-item"><span class="tl-num">06</span><div class="tl-body"><span class="when">After each mock</span><h4>Feedback and next steps</h4><p>We go through your results with you and adjust the next week's plan to fix what is costing you marks.</p></div></div>
     </div>
   </div>
 </section>
@@ -513,7 +632,7 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
         <div><span class="t"><svg class="ico" viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg></span>Weekly progress tracking</div>
         <div><span class="t"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/></svg></span>Study abroad guidance</div>
       </div>
-      <div class="rv"><a class="btn btn-primary" href="https://brightpte.com/about/"><span class="lbl"><span>Learn More</span><span>Learn More</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
+      <div class="rv" style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-primary" href="https://brightpte.com/about/"><span class="lbl"><span>About the Academy</span><span>About the Academy</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a><a class="btn btn-outline" href="https://brightpte.com/about/"><span class="lbl"><span>Meet Dr. Sunny</span><span>Meet Dr. Sunny</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
     </div>
   </div>
 </section>
@@ -525,7 +644,7 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
       <span class="label rv">Study Abroad</span>
       <h2 class="rv">Your Score Opens Doors Worldwide</h2>
       <p class="lead rv" style="color:var(--color-muted-on-dark)">Required scores vary by country, university and visa type. We help you find the exact number you need, then guide your next steps.</p>
-      <a class="btn btn-accent rv" href="https://brightpte.com/contact/"><span class="lbl"><span>Get in Touch</span><span>Get in Touch</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
+      <div class="rv" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:16px"><a class="btn btn-accent" href="https://brightpte.com/contact/"><span class="lbl"><span>Get in Touch</span><span>Get in Touch</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a><a class="btn btn-outline" href="https://brightpte.com/study-abroad/"><span class="lbl"><span>Study Abroad Guide</span><span>Study Abroad Guide</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
     </div>
     <div class="content dest">
       <a class="d rv" href="https://brightpte.com/study-abroad/australia/"><img src="https://brightpte.com/wp-content/uploads/2026/10/bp-dest-australia-sydney-1024x683.jpg" alt="Sydney Harbour, Australia" loading="lazy"><div class="glass"><div><b>Australia</b><span class="mono">Uni + visa scores</span></div><span class="arw"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></div></a>
@@ -567,10 +686,28 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
   </div>
 </section>
 
+<!-- ADMISSIONS -->
+<section id="admissions" style="padding-top:0">
+  <div class="outer">
+    <div class="intro">
+      <span class="label rv">Admissions</span>
+      <h2 class="rv">How to Enrol</h2>
+      <p class="lead rv">Joining takes four simple steps. New batches start regularly, and you can begin with a free counselling call.</p>
+    </div>
+    <div class="content adm">
+      <div class="adm-card rv"><div class="n"><b>Step 1</b><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div><h5>Book free counselling</h5><p>Tell us your target score, your country and your exam date.</p></div>
+      <div class="adm-card rv"><div class="n"><b>Step 2</b><svg viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg></div><h5>Get your recommendation</h5><p>We check your level and recommend the programme that fits.</p></div>
+      <div class="adm-card rv"><div class="n"><b>Step 3</b><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div><h5>Enrol and pay</h5><p>Pay securely by bKash, Nagad or card.</p></div>
+      <div class="adm-card rv"><div class="n"><b>Step 4</b><svg viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="14" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg></div><h5>Join your live class</h5><p>Receive your schedule, class link and study materials.</p></div>
+    </div>
+    <div class="adm-acts rv"><a class="btn btn-primary" href="https://brightpte.com/contact/"><span class="lbl"><span>Book Free Counselling</span><span>Book Free Counselling</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a><a class="btn btn-outline" href="#courses"><span class="lbl"><span>View Programmes</span><span>View Programmes</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
+  </div>
+</section>
+
 <!-- MOCK CTA -->
 <section style="padding-top:0">
   <div class="outer content cta">
-    <div class="card dark rv">
+    <div class="card dark on-dark rv">
       <span class="label on-dark" style="align-self:flex-start">1:1 Live Mock Session</span>
       <h2>Know Exactly Where You Stand Before Exam Day</h2>
       <p>Sit a full, real-format mock with Dr. Syed Sunny, then get a task-by-task review and a personal improvement plan.</p>
@@ -579,6 +716,7 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
         <li><b>02</b>We confirm your slot on WhatsApp</li>
         <li><b>03</b>Pay after confirmation, get your session link</li>
       </ul>
+      <div><a class="btn btn-outline" href="https://brightpte.com/mock-test/"><span class="lbl"><span>How Mock Sessions Work</span><span>How Mock Sessions Work</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
     </div>
     <div class="card hot price rv">
       <div><span class="mono">One-to-one session</span><p class="num" style="margin-top:12px">BDT 1,000</p><h5 style="margin-top:6px">per 1-hour session</h5></div>
@@ -599,6 +737,7 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
       <span class="label rv">FAQ</span>
       <h2 class="rv">Questions, Answered</h2>
       <p class="lead rv">Still unsure? Book a free counselling call and ask us directly.</p>
+      <div class="rv"><a class="btn btn-outline" href="https://brightpte.com/resources/faqs/"><span class="lbl"><span>All FAQs</span><span>All FAQs</span></span><span class="ar"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a></div>
     </div>
     <div class="content faq-list" style="max-width:820px">
       <div class="qa open rv"><button aria-expanded="true">Are the PTE classes online?<span class="x"></span></button><div class="ans"><div><p>Yes. Every class runs live online, so you can join from anywhere in Bangladesh. Each session is recorded for revision.</p></div></div></div>
@@ -665,6 +804,13 @@ footer{background:var(--color-ink);color:var(--color-muted-on-dark);padding:84px
       if(p<1) requestAnimationFrame(step);}
     requestAnimationFrame(step);
   }
+  // method timeline fills as you scroll
+  var items=[].slice.call(document.querySelectorAll('#tl .tl-item'));
+  function tlScroll(){
+    items.forEach(function(it){var ir=it.getBoundingClientRect();it.classList.toggle('lit',ir.top<innerHeight*0.6);});
+  }
+  var tk=false;addEventListener('scroll',function(){if(!tk){requestAnimationFrame(function(){tlScroll();tk=false;});tk=true;}},{passive:true});
+  addEventListener('resize',tlScroll);tlScroll();
   // mobile menu
   var nav=document.getElementById('nav'),b=document.getElementById('burger');
   b.addEventListener('click',function(){var o=nav.classList.toggle('open');b.setAttribute('aria-expanded',o);});
